@@ -1,0 +1,770 @@
+[{
+    "type": "event",
+    "name": "OwnershipTransferred",
+    "inputs": [{
+        "type": "address",
+        "name": "previousOwner",
+        "internalType": "address",
+        "indexed": true
+    }, {
+        "type": "address",
+        "name": "newOwner",
+        "internalType": "address",
+        "indexed": true
+    }],
+    "anonymous": false
+}, {
+    "type": "event",
+    "name": "PoolActiveStateToggled",
+    "inputs": [{
+        "type": "address",
+        "name": "poolAddress",
+        "internalType": "address",
+        "indexed": false
+    }, {
+        "type": "uint256",
+        "name": "networkID",
+        "internalType": "uint256",
+        "indexed": false
+    }, {
+        "type": "bool",
+        "name": "active",
+        "internalType": "bool",
+        "indexed": false
+    }],
+    "anonymous": false
+}, {
+    "type": "event",
+    "name": "PoolAdded",
+    "inputs": [{
+        "type": "address",
+        "name": "poolAddress",
+        "internalType": "address",
+        "indexed": false
+    }, {
+        "type": "uint256",
+        "name": "networkID",
+        "internalType": "uint256",
+        "indexed": false
+    }, {
+        "type": "uint256",
+        "name": "bonusAPY",
+        "internalType": "uint256",
+        "indexed": false
+    }],
+    "anonymous": false
+}, {
+    "type": "event",
+    "name": "PoolBaseAPYChanged",
+    "inputs": [{
+        "type": "uint256",
+        "name": "bonusAPY",
+        "internalType": "uint256",
+        "indexed": false
+    }],
+    "anonymous": false
+}, {
+    "type": "event",
+    "name": "PoolBonusAPYChanged",
+    "inputs": [{
+        "type": "address",
+        "name": "poolAddress",
+        "internalType": "address",
+        "indexed": false
+    }, {
+        "type": "uint256",
+        "name": "networkID",
+        "internalType": "uint256",
+        "indexed": false
+    }, {
+        "type": "uint256",
+        "name": "bonusAPY",
+        "internalType": "uint256",
+        "indexed": false
+    }],
+    "anonymous": false
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "addPool",
+    "inputs": [{
+        "type": "address",
+        "name": "_address",
+        "internalType": "address"
+    }, {
+        "type": "uint256",
+        "name": "_networkID",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_bonusAPY",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "addPoolBoost",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_id",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_start",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_end",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_boost",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "addPromotionBoost",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_id",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_cutOffTime",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_duration",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_boost",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_validForUsers",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "addUserBoost",
+    "inputs": [{
+        "type": "address[]",
+        "name": "_users",
+        "internalType": "address[]"
+    }, {
+        "type": "uint256",
+        "name": "_id",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_start",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_end",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_boost",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "baseAPYPools",
+    "inputs": []
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "changePoolBaseAPY",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_baseAPY",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "changePoolBonusAPY",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_id",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_bonusAPY",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "claimModule",
+    "inputs": [{
+        "type": "address",
+        "name": "_user",
+        "internalType": "address"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "currentPoolID",
+    "inputs": []
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "currentXGTPriceOfPool",
+    "inputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "disablePromotionBoost",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_index",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "getClaimable",
+    "inputs": [{
+        "type": "address",
+        "name": "_user",
+        "internalType": "address"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "getCurrentAverageXGTPrice",
+    "inputs": []
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "getLatestPoolTokenPrice",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_id",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "getPoolBoost",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_index",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "getPoolValue",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_id",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+    }],
+    "name": "getPromotionBoost",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_index",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "getTotalValue",
+    "inputs": []
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "getUserBoost",
+    "inputs": [{
+        "type": "address",
+        "name": "_user",
+        "internalType": "address"
+    }, {
+        "type": "uint256",
+        "name": "_index",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+    }],
+    "name": "indexerAddress",
+    "inputs": [{
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "initialize",
+    "inputs": [{
+        "type": "address",
+        "name": "_rewardChest",
+        "internalType": "address"
+    }, {
+        "type": "address",
+        "name": "_multiSig",
+        "internalType": "address"
+    }, {
+        "type": "uint256",
+        "name": "_currentPoolId",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+    }],
+    "name": "owner",
+    "inputs": []
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "id",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "start",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "end",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "boost",
+        "internalType": "uint256"
+    }],
+    "name": "poolBoosts",
+    "inputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "address",
+        "name": "addr",
+        "internalType": "address"
+    }, {
+        "type": "uint256",
+        "name": "networkID",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "bonusAPY",
+        "internalType": "uint256"
+    }, {
+        "type": "bool",
+        "name": "active",
+        "internalType": "bool"
+    }],
+    "name": "pools",
+    "inputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "id",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "cutoff",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "duration",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "boost",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "maxUsers",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "users",
+        "internalType": "uint256"
+    }, {
+        "type": "bool",
+        "name": "active",
+        "internalType": "bool"
+    }],
+    "name": "promotionBoosts",
+    "inputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "removePoolBoost",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_index",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "removeUserBoost",
+    "inputs": [{
+        "type": "address",
+        "name": "_user",
+        "internalType": "address"
+    }, {
+        "type": "uint256",
+        "name": "_index",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "renounceOwnership",
+    "inputs": []
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "address",
+        "name": "",
+        "internalType": "contract IRewardChest"
+    }],
+    "name": "rewardChest",
+    "inputs": []
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setCurrentPoolPrice",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_id",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_xgtPerLP",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_xgtPrice",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "_timestamp",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setIndexerAddress",
+    "inputs": [{
+        "type": "address",
+        "name": "_address",
+        "internalType": "address"
+    }, {
+        "type": "bool",
+        "name": "_authorized",
+        "internalType": "bool"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setUserPoolTokens",
+    "inputs": [{
+        "type": "address",
+        "name": "_user",
+        "internalType": "address"
+    }, {
+        "type": "uint256[]",
+        "name": "_ids",
+        "internalType": "uint256[]"
+    }, {
+        "type": "uint256[]",
+        "name": "_amount",
+        "internalType": "uint256[]"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "togglePool",
+    "inputs": [{
+        "type": "uint256",
+        "name": "_id",
+        "internalType": "uint256"
+    }, {
+        "type": "bool",
+        "name": "_active",
+        "internalType": "bool"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "totalPoolTokens",
+    "inputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "transferOwnership",
+    "inputs": [{
+        "type": "address",
+        "name": "newOwner",
+        "internalType": "address"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "id",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "start",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "end",
+        "internalType": "uint256"
+    }, {
+        "type": "uint256",
+        "name": "boost",
+        "internalType": "uint256"
+    }],
+    "name": "userBoosts",
+    "inputs": [{
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "userLastClaimedPool",
+    "inputs": [{
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }],
+    "name": "userPoolTokens",
+    "inputs": [{
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+    }],
+    "name": "userTokensAddedToTotal",
+    "inputs": [{
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+    }]
+}, {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{
+        "type": "bool",
+        "name": "",
+        "internalType": "bool"
+    }],
+    "name": "userUsedPromotionBoost",
+    "inputs": [{
+        "type": "address",
+        "name": "",
+        "internalType": "address"
+    }, {
+        "type": "uint256",
+        "name": "",
+        "internalType": "uint256"
+    }]
+}]

@@ -1,0 +1,1691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Xion Finance - One Click to DeFi</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link rel="preconnect" href="https://xion.finance" />
+	<link rel="dns-prefetch" href="https://xion.finance" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="styles/styles.min.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-D5ST216GTY"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-D5ST216GTY');
+	</script>
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-TTBWC58');
+	</script>
+	<!-- End Google Tag Manager -->
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTBWC58" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<div class="wrapper">
+		<div class="mobile-menu">
+			<div class="header">
+				<div class="mobile-header">
+					<a class="burger-menu" href="#">
+						<img loading="lazy" src="images/burger-open.svg" alt="Menu" />
+					</a>
+					<a class="header-logo" href="." id="navigate_home_mobile">
+						<img loading="lazy" src="images/logo-mini.svg" alt="Xion Finance" />
+					</a>
+				</div>
+			</div>
+			<div class="main">
+				<div class="section">
+					<ul>
+						<li><a href="earn.html" id="navigate_earn_mobile">EARN</a></li>
+						<li><a href="farm.html" id="navigate_farm_mobile">FARM</a></li>
+						<li><a href="shop.html" id="navigate_shop_mobile">SHOP</a></li>
+						<li><a href="withdraw.html" id="navigate_withdraw_mobile">WITHDRAW</a></li>
+					</ul>
+				</div>
+				<div class="section">
+					<ul>
+						<li><a href="https://www.coingecko.com/en/coins/xion-global-token" target="_blank"
+								id="navigate_coingecko"><img loading="lazy" src="images/CoinGecko.svg"
+									alt="CoinGecko" /></a></li>
+						<!-- <li><a href="https://coincodex.com/crypto/xion-global-token/" target="_blank"
+								id="navigate_coincodex"><img loading="lazy" src="images/coincodex.svg" alt="coincodex"
+									style="height: 20px" /></a></li> -->
+						<li><a href="https://coinmarketcap.com/currencies/xion-finance/" target="_blank"
+								id="navigate_coinmarketcap"><img loading="lazy" src="images/CoinMarketCap.svg"
+									alt="CoinMarketCap" /></a></li>
+						<li><a href="https://etherscan.io/address/0xC25AF3123d2420054c8fcd144c21113aa2853F39"
+								target="_blank" id="navigate_etherscan"><img loading="lazy" src="images/etherscan.svg"
+									alt="ETHERSCAN" /></a></li>
+						<li><a href="https://bscscan.com/token/0xC25AF3123d2420054c8fcd144c21113aa2853F39"
+								target="_blank" id="navigate_bscscan"><img loading="lazy" src="images/BscScan.svg"
+									alt="BscScan" /></a>
+						</li>
+						<li><a href="https://blockscout.com/poa/xdai/address/0xC25AF3123d2420054c8fcd144c21113aa2853F39"
+								target="_blank" id="navigate_blockscout"><img loading="lazy" src="images/BlockScout.svg"
+									alt="BlockScout" style="height: 18px" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="header">
+
+			<div class="flex_container">
+				<div class="mobile-header">
+					<a class="burger-menu" href="#">
+						<img loading="lazy" src="images/burger.svg" alt="Menu" />
+					</a>
+					<a class="header-logo" href="." id="navigate_home">
+						<img loading="lazy" src="images/logo-mini.svg" alt="Xion Finance" />
+					</a>
+				</div>
+
+				<a class="header-logo wide" href=".">
+					<img loading="lazy" src="images/logo.svg" alt="Xion"> <span class="logo-suffix">FINANCE</span>
+				</a>
+
+				<ul class="header-list">
+					<li class="header-list--item">
+						<a href="earn.html" id="navigate_earn">EARN</a>
+					</li>
+					<li class="header-list--item">
+						<a href="farm.html" id="navigate_farm">FARM</a>
+					</li>
+					<li class="header-list--item">
+						<a href="shop.html" id="navigate_shop">SHOP</a>
+					</li>
+					<li class="header-list--item">
+						<a href="withdraw.html" id="navigate_withdraw">WITHDRAW</a>
+					</li>
+				</ul>
+
+				<div class="header-buttons">
+					<a id="connect-wallet" href="#" class="header-btn">CONNECT</a>
+
+					<div class="header-btn chain-select">
+						<div class="chain selected" data-chain="Gnosis">
+							<img loading="lazy" class="regular update-xdai" src="images/gnosis.svg" alt="" />
+							<img loading="lazy" class="selected update-xdai" src="images/gnosis.svg" alt="" />
+							<div>&nbsp;&nbsp;Gnosis</div>
+						</div>
+						
+						<div class="chain" data-chain="BSC">
+							<img loading="lazy" class="regular" src="images/bsc.svg" alt="" />
+							<img loading="lazy" class="selected" src="images/bsc-selected.svg" alt="" />
+							<div>&nbsp;&nbsp;BSC</div>
+						</div>
+						<div class="currency-select">
+							<div class="currency usd selected" data-currency="USD">USD</div>
+							<div class="currency native" data-currency="NATIVE">NATIVE</div>
+						</div>
+						<img loading="lazy" class="dropdown" src="images/dropdown-icon.svg" alt="&#x25BC;" />
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="earn faq">
+			<div class="flex_container">
+				<h1 class="faq-title">FAQ</h1>
+				<div class="faq-content">
+					<button class="accordion">What is Xion?</button>
+					<div class="panel">
+						<p>We are a decentralized payment gateway that allows anyone, anywhere in the world to start
+							accepting international payments in minutes. Accompanied by a fun and intuitive DeFi
+							platform, to earn interest, trading fees and rewards on your crypto.</p>
+					</div>
+
+					<button class="accordion">How do I earn interest?</button>
+					<div class="panel">
+						<p>Simply deposit your crypto and immediately start earning up to 15% compounded interest and
+							XGT rewards. Don’t have crypto? No problem, you can easily purchase crypto straight from our
+							platform with your debit/credit card, Apple Pay or Bank transfer.<br><br>
+							Click here to learn more: <u><a
+									href="https://www.xion.global/start-earning-with-xion-finance/" target="_blank"
+									id="navigate_start_earn_1">xion.global/start-earning-with-xion-finance</a></u></p>
+					</div>
+
+					<button class="accordion">What is farming?</button>
+					<div class="panel">
+						<p>When you deposit your xDAI and XGT to farm, you will get a share in the pool. This means,
+							every single time someone makes a trade in Xion, you will automatically earn up to 0.4% off
+							every trade in crypto. The more you deposit, the more trading fees you earn. Plus, you will
+							continuously be rewarded in XGT that can either be held for an appreciation in value or you
+							can use them to purchase the latest products from our merchants. This includes: PS5, Xbox
+							Series X, DJ Mavric and much more.</p>
+						<p>Providing liquidity therefore increases the total value(USD) of all xDAI and XGT
+							tokens lockedin the corresponding smart contracts. As the total value locked increases,
+							certain portions of XGT will be unlocked to issue 100% cashback rewards to online shoppers.
+							Visit the Shop page to check if any cashback rewards levels have been unlocked.<br><br>
+							Click here to learn more: <u><a
+									href="https://www.xion.global/start-farming-with-xion-finance/" target="_blank"
+									id="navigate_start_farm">xion.global/start-farming-with-xion-finance</a></u></p>
+					</div>
+					<button class="accordion">Do I need crypto to earn interest, trading fees and rewards?</button>
+					<div class="panel">
+						<p>Yes, but through our partners crypto buying widgets, you can purchase crypto in just a few
+							clicks. No need to head to an exchange, just select the crypto you wish to purchase, enter
+							in
+							an amount and click BUY. You will be redirected to one of our partners widgets, where you
+							can
+							purchase your crypto using your debit/credit card, Apple Pay or bank transfer. The
+							crypto will be automatically sent to your digital wallet in minutes, if not seconds. Then
+							all
+							you need to do is deposit your crypto to start earning!</p>
+					</div>
+
+					<button class="accordion">What is XGT/Rewards?</button>
+					<div class="panel">
+						<p>XGT(Xion Global Token) is our interest accruing tokens that are rewarded to anyone who has
+							deposited their crypto into our ecosystem. The demand for obtaining XGT to purchase
+							products, receive discounts and earn cashback from online stores, is growing at a rapid
+							pace.</p>
+						<p>XGT benefits:</p>
+						<ul>
+							<li>• Spend your XGT for up to 100% discounts on purchases</li>
+							<li>• Earn up to 100% cashback on purchases & transaction fees</li>
+							<li>• Spend XGT for compounded discounts on recurring billing product purchases</li>
+							<li>• Hold onto your XGT rewards for an appreciation in value</li>
+						</ul>
+						<p>Just imagine, you can purchase a PS5, get 100% cashback in XGT and buyanother 1 for free.
+							<br><br>
+							Click here to learn more: <u><a
+									href="https://www.xion.global/shopping-xgt-rewards-with-xion-finance"
+									target="_blank"
+									id="navigate_start_shop">xion.global/shopping-xgt-rewards-with-xion-finance</a></u>
+						</p>
+					</div>
+
+					<button class="accordion">Are your smart contracts secure?</button>
+					<div class="panel">
+						<p>Our smart contracts have been built by industry leading experts with many years of experience
+							in the DeFi and security space. Through Honeyswap we are making use of the heavily
+							battle-tested
+							Uniswap V2 Contracts, allowing our users a safe and secure trading and farming of XGT.
+							Additionally, incentive mechanisms have been built around accruing high liquidity for XGT,
+							in order to protect our users from price swings.</p>
+					</div>
+
+					<button class="accordion">How are we different to our competitors?</button>
+					<div class="panel">
+						<p>XGT has a very unique use case. Instead of simply voting with your DeFi token, you can use
+							your XGT rewards to purchase products from online stores. XGT has combined modern e commerce
+							discounts & cashbacks with blockchain technology, through a novel “1-click to DeFi”
+							mechanism.</p>
+						<p>The benefits of Xion:</p>
+						<ul>
+							<li>• Metatransactions so you can pay for your transaction fees in DAI</li>
+							<li>• XGT safeguards to protect users from sending their crypto to the wrong address</li>
+							<li>• Making DeFi tangible for people who barely understand PayPal/Venmo</li>
+							<li>• Smart-cross chain token and logic to offload intensive computations to the cheaper
+								Gnosis chain, while keeping the security of the ETH mainnet</li>
+							<li>• Simple on-ramp for fiat to crypto purchases and vice versa</li>
+							<li>• Decentralized hosted checkout to purchase products with or for XGT rewards</li>
+							<li>• 1-click compounded interest on merchants sales revenue (Only for Xion Merchants)</li>
+						</ul>
+
+						<p>Xion is also funded by CV Labs, one of the leading blockchain ventures in the industry. </p>
+					</div>
+
+					<button class="accordion">Can I withdraw my crypto into my bank account?</button>
+					<div class="panel">
+						<p>Yes, you can connect your bank account to withdraw your crypto in just a few clicks. It’s
+							safe, secure and is only a 0.75% withdrawal fee.<br><br>
+							Click here to learn more: <u><a
+									href="https://www.xion.global/purchase-withdraw-swap-with-xion-finance"
+									target="_blank"
+									id="navigate_start_withdraw">xion.global/purchase-withdraw-swap-with-xion-finance</a></u>
+						</p>
+					</div>
+
+					<button class="accordion">Can I buy XGT directly?</button>
+					<div class="panel">
+						<p>No, the only way you can get XGT is by swapping your DAI/xDAI for XGT or getting rewarded in
+							XGT when you are earning interest and/or farming.</p>
+					</div>
+
+
+					<button class="accordion">How do cashback rewards work?</button>
+					<div class="panel">
+						<p>We need farmers. The more liquidity in the Xion Pool, the more cashback rewards we can issue
+							to online shoppers. Every time we reach a certain amount of liquidity, then a level of
+							cashback rewards are unlocked. </p>
+						<p>If a level of cashback rewards have all been issued, then it will be locked until we have
+							enough liquidity to unlock the next level of cashback rewards. The more you farm, the more
+							cashback rewards are available. </p>
+						<p>Example: once we reach $2.5M USD of liquidity, then the first 20 000 people can purchase a
+							product of their choice and get 100% cashback in XGT. </p>
+						<p>These are the 5 levels of 100% cashback rewards:</p>
+						<ul>
+							<li>1 - $2,5M USD for 20,000 shoppers</li>
+							<li>2 - $7.5M USD for 40,000 shoppers</li>
+							<li>3 - $10.5M USD for 60,000 shoppers</li>
+							<li>4 - $30M USD for 80,000 shoppers</li>
+							<li>5 - $50M USD for 100,000 shoppers</li>
+						</ul>
+						<p> Once all 5 levels of 100% cashback rewards have been issued, then the next set of cashback
+							rewards will be made available.</p>
+						<p>Please note: earning interest is not related to farming. Farming will only increase the
+							amount of liquidity to unlock cashback rewards.</p>
+					</div>
+
+					<button id="network-faq-click" class="accordion">What is the Gnosis chain?</button>
+					<div class="panel">
+						<p>In order to interact with our protocol to swap and farm, you will need to connect to the xDAI
+							blockchain. As some wallets don't support it right away, you might have to add it manually.
+							We'll show you how to do so!
+
+							Depending on your wallet, there are different steps required. For Metamask, you would go to
+							your settings, go to the Network settings and click on "Add Network". Set the Network Name
+							to "xDAI", add "<u>https://xion.finance/rpc</u>" as the RPC Url, with the Chain ID being
+							100.
+							Feel free to reach out to us at any time if you encounter any problems!
+						</p>
+					</div>
+
+
+					<button class="accordion">Are your smart contracts open source?</button>
+					<div class="panel">
+						<p>Yes, please click on <u><a
+									href="https://www.xion.global/wp-content/uploads/2021/02/XION-GLOBAL-WHITEPAPER.pdf"
+									target="_blank" id="navigate_whitepaper">this link to view our whitepaper</a></u>
+							which contains links to our
+							smart contracts in GitHub.<br><br>
+							Additionally you can find information about the XGT token via <u><a
+									href="https://www.xion.global/wp-content/uploads/2021/02/XION-GLOBAL-TOKEN-INFO-TERMS.pdf"
+									target="_blank" id="navigate_xgt_token">this link</a></u>.
+						</p>
+					</div>
+				</div>
+
+				<div class="earn-footer">
+					<div class="earn-footer-top">
+						<ul class="earn-footer-list">
+							<li class="earn-footer-item">
+								<a href="">
+									<img loading="lazy" src="images/logo.svg" alt="">
+								</a>
+							</li>
+							<li class="earn-footer-item">
+								<b class="earn-footer__title">DISCOVER</b>
+								<ul class="list-foot">
+									<li class="list-foot__item">
+										<a href="https://xionwiki.gitbook.io/xion.finance/" target="_blank"
+											class="list-foot__link" id="navigate_documentation">Documentation</a>
+									</li>
+									<li class="list-foot__item">
+										<a href="https://github.com/xion-global" target="_blank" class="list-foot__link"
+											id="navigate_github">GitHub</a>
+									</li>
+									<li class="list-foot__item">
+										<a href="https://xion.app" target="_blank" class="list-foot__link"
+											id="navigate_reinvest">Merchant Sign Up</a>
+									</li>
+									<li class="list-foot__item">
+										<a href="https://xionfinance.gitbook.io/xion-finance-wiki/how-to-move-from-xdai-to-bsc"
+											target="_blank" class="list-foot__link" id="navigate_buy_with_xdai">Buy BNB
+											with xDAI</a>
+									</li>
+								</ul>
+							</li>
+							<li class="earn-footer-item">
+								<b class="earn-footer__title">COMPANY</b>
+								<ul class="list-foot">
+									<!-- <li class="list-foot__item">
+										<a href="about_us.html" class="list-foot__link" id="navigate_about_us">About
+											Us</a>
+									</li> -->
+									<li class="list-foot__item">
+										<a href="terms_conditions.html" class="list-foot__link"
+											id="navigate_terms">Terms & Conditions</a>
+									</li>
+									<li class="list-foot__item">
+										<a href="privacy_policy.html" class="list-foot__link"
+											id="navigate_privacy">Privacy Policy</a>
+									</li>
+									<li class="list-foot__item">
+										<a href="https://xion.global" target="_blank" class="list-foot__link"
+											id="navigate_home_xion">Xion Global</a>
+									</li>
+								</ul>
+							</li>
+							<li class="earn-footer-item">
+								<b class="earn-footer__title">FOLLOW US</b>
+								<ul class="social-networks">
+									<li class="social-networks__item">
+										<a href="https://t.me/xionglobal" target="_blank" class="social-networks__link"
+											id="navigate_telegram">
+											<img loading="lazy" src="images/telegram.svg" alt="telegram" />
+										</a>
+									</li>
+									<li class="social-networks__item">
+										<a href="https://twitter.com/xionfinance" target="_blank"
+											class="social-networks__link" id="navigate_twitter">
+											<img loading="lazy" src="images/twitter.svg" alt="twitter" />
+										</a>
+									</li>
+									<li class="social-networks__item">
+										<a href="https://xionglobal.medium.com" target="_blank"
+											class="social-networks__link" id="navigate_medium">
+											<img loading="lazy" src="images/medium.svg" alt="medium" />
+									</li>
+									<li class="social-networks__item">
+										<a href="https://github.com/xion-global" target="_blank"
+											class="social-networks__link" id="navigate_github_link">
+											<img loading="lazy" src="images/github.svg" alt="github" />
+										</a>
+									</li>
+
+									<li class="social-networks__item">
+										<a href="https://discord.gg/Q633ztSpZN" target="_blank"
+											class="social-networks__link" id="navigate_discord">
+											<img loading="lazy" src="images/discord.svg" alt="discord" />
+										</a>
+									</li>
+								</ul>
+					</div>
+					<div class="earn-footer-bottom">
+						<div class="copyright">©2021 MercX Group Limited. All Rights Reserved</div>
+						<p>MercX Group Limited enables users to earn compounding interest, trading fees and XGT rewards
+							using
+							smart contracts which are open source. MercX Group Limited does not take custody of tokens.
+							MercX Group Limited is a British Virgin Islands cooperation and is not a licensed bank,
+							money
+							lender or an exchange. MercX Group Limited uses Uniswap Exchange contracts for placing a
+							trade.
+							MercX Group Limited currently charges minimal fees from users for the services provided
+							through its
+							smart contracts.</p>
+						<p>Note: MercX Group Limited is experimental technology and software. Please use it at your own
+							risk.
+							Losing your private key or forgetting your password may result in permanent loss of funds.
+							It is recommended to create a Torus wallet that can connect to either your email, phone
+							number or social media account to easily use the platform and/or recover your account.
+							Alternatively, connect your Web3 Wallet (Metamask, Trust etc) to use the platform. For any
+							enquires, please reach out to us at contact@mercx.io.</p>
+						<div class="text-bot">Designed & Built by ChunkyMonkeyMedia</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="popup__overlay popup-earn-js">
+			<div class="popup">
+				<a href="#" class="popup__close"></a>
+				<div class="box-success">
+					<div class="box-success__title">SWAP SUCCESSFUL</div>
+					<div class="box-success__image">
+						<img loading="lazy" src="images/img_6.png" alt="Image description" width="" height="">
+					</div>
+					<div class="block-btn">
+						<button class="btn-link btn-link_violet popup__cancel">CHECK YOUR CRYPTO BALANCE</button>
+						<button class="btn-link btn-link_blue">VIEW TRANSACTION</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="popup__overlay popup-deposit-js">
+			<div class="popup">
+				<a href="#" class="popup__close"></a>
+				<div class="box-success">
+					<div class="box-success__title">DEPOSIT SUCCESSFUL</div>
+					<div class="box-success__image">
+						<img loading="lazy" src="images/img_6.png" alt="Image description" width="" height="">
+					</div>
+					<div class="block-btn">
+						<button class="btn-link btn-link_violet">WATCH YOUR EARNINGS & REWARDS GROW</button>
+						<button class="btn-link btn-link_blue">VIEW TRANSACTION</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="popup__overlay popup-withdraw-js">
+			<div class="popup">
+				<a href="#" class="popup__close"></a>
+				<div class="box-success">
+					<div class="box-success__title">WITHDRAW SUCCESSFUL</div>
+					<div class="box-success__image">
+						<img loading="lazy" src="images/img_6.png" alt="Image description" width="" height="">
+					</div>
+					<div class="block-btn">
+						<button class="btn-link btn-link_violet popup__cancel">CHECK YOUR CRYPTO BALANCE</button>
+						<button class="btn-link btn-link_blue">VIEW TRANSACTION</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="popup__overlay popup-swapfailed-js">
+			<div class="popup popup-failed">
+				<a href="#" class="popup__close"></a>
+				<div class="box-success">
+					<div class="box-success__title">SWAP FAILED</div>
+					<div class="box-success__image">
+						<img loading="lazy" src="images/error-img.png" alt="Image description" width="" height="">
+					</div>
+					<div class="block-btn">
+						<button class="btn-link btn-link_violet">PLEASE TRY AGAIN</button>
+						<button class="btn-link btn-link_violet">CONTACT SUPPORT</button>
+						<button class="btn-link btn-link_blue">VIEW TRANSACTION</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="popup__overlay popup-depositfailed-js">
+			<div class="popup popup-failed">
+				<a href="#" class="popup__close"></a>
+				<div class="box-success">
+					<div class="box-success__title">DEPOSIT FAILED</div>
+					<div class="box-success__image">
+						<img loading="lazy" src="images/error-img.png" alt="Image description" width="" height="">
+					</div>
+					<div class="block-btn">
+						<button class="btn-link btn-link_violet">PLEASE TRY AGAIN</button>
+						<button class="btn-link btn-link_violet">CONTACT SUPPORT</button>
+						<button class="btn-link btn-link_blue">VIEW TRANSACTION</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="popup__overlay popup-withdrawfailed-js">
+			<div class="popup popup-failed">
+				<a href="#" class="popup__close"></a>
+				<div class="box-success">
+					<div class="box-success__title">WITHDRAW FAILED</div>
+					<div class="box-success__image">
+						<img loading="lazy" src="images/error-img.png" alt="Image description" width="" height="">
+					</div>
+					<div class="block-btn">
+						<button class="btn-link btn-link_violet">PLEASE TRY AGAIN</button>
+						<button class="btn-link btn-link_violet">CONTACT SUPPORT</button>
+						<button class="btn-link btn-link_blue">VIEW TRANSACTION</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+		<div class="popup__overlay popup-wait-js">
+			<div class="popup">
+				<a href="#" class="popup__close"></a>
+				<div class="box-success">
+					<div class="box-success__image">
+						<img loading="lazy" src="images/img_popup.png" alt="Image description" width="" height="">
+					</div>
+					<div class="tol-pay">
+						<ul class="tol-pay-loading">
+							<li>
+								<svg class="icon-load" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+									viewBox="0 0 16 16">
+									<g>
+										<g>
+											<path fill="#371a45"
+												d="M8.169.348a7.619 7.619 0 1 1-.002 15.237A7.619 7.619 0 0 1 8.17.348zm0 14.806a7.188 7.188 0 1 0 0-14.375 7.188 7.188 0 0 0 0 14.375z" />
+										</g>
+										<g>
+											<path fill="#fc9e15"
+												d="M15.54 7.946a7.39 7.39 0 1 1-14.78 0 7.39 7.39 0 0 1 14.78 0z" />
+										</g>
+										<g opacity=".43">
+											<g opacity=".43">
+												<path fill="#fff"
+													d="M2.72 13.07c-.832-2.108-.6-4.74.622-7.043a9.556 9.556 0 0 1 1.872-2.474 8.206 8.206 0 0 1 2.363-1.58 6.419 6.419 0 0 1 2.56-.556h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.024-.058.058v.082h-.024l-.021-.013a4.604 4.604 0 0 0-.328-.19c-1.446-.768-3.181-.784-4.886-.043-1.712.743-3.188 2.157-4.156 3.98-1.2 2.261-1.43 4.843-.615 6.905z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M13.214 5.835c-.385.504-1.145-.253-2.186-1.05-1.04-.796-1.97-1.33-1.585-1.834s1.542-.266 2.583.53c1.042.796 1.573 1.85 1.188 2.354z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M8.683 2.46c.002.377-.499.414-1.116.417-.617.003-1.117-.03-1.119-.406-.002-.377.497-.684 1.114-.687.618-.003 1.12.3 1.121.676z" />
+											</g>
+										</g>
+										<g>
+											<path fill="#d66b09" d="M14.67 2.795a.247.247 0 0 1 .022.046" />
+										</g>
+										<g opacity=".21">
+											<g opacity=".21">
+												<path fill="#371a45"
+													d="M14.861 4.535l-.023.023c-.008-.076.101-.022.01-.17-1.049.861-6.023 4.663-8.499 5.289-1.3.328-2.749.012-3.327-1.197a1.031 1.031 0 0 1-.04-.091 7.447 7.447 0 0 1-.497-3.877 7.49 7.49 0 0 1 .564-1.997 7.461 7.461 0 0 0-2.285 4.43 7.477 7.477 0 0 0 .497 3.877l.015.035a7.492 7.492 0 0 0 .642 1.203c.008.013.015.025.024.037.145.218.3.426.463.625l-.011.003.03.019.081.097.019-.007c.364.373 1.174 1.52 3.149 2.175.388.129.781.241 1.182.312a7.445 7.445 0 0 0 5.449-1.131 7.445 7.445 0 0 0 3.155-4.571c.095-.416.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.815z" />
+											</g>
+										</g>
+									</g>
+								</svg>
+								<svg class="icon-load active" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+									viewBox="0 0 16 16">
+									<g>
+										<g>
+											<path fill="#371a45"
+												d="M8.479-.035a7.618 7.618 0 0 1 7.617 7.62A7.617 7.617 0 0 1 8.479 15.2a7.618 7.618 0 1 1 0-15.236zm0 14.806a7.187 7.187 0 0 0 7.187-7.187 7.188 7.188 0 1 0-7.187 7.187z" />
+										</g>
+										<g>
+											<path fill="#1ebc61"
+												d="M15.849 7.562a7.39 7.39 0 1 1-14.777.001 7.39 7.39 0 0 1 14.777 0z" />
+										</g>
+										<g opacity=".43">
+											<g opacity=".43">
+												<path fill="#fff"
+													d="M3.03 12.686c-.832-2.107-.6-4.74.622-7.043a9.608 9.608 0 0 1 1.87-2.474 8.24 8.24 0 0 1 2.364-1.58 6.415 6.415 0 0 1 2.561-.555h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.023-.058.058v.083h-.026l-.019-.013a4.837 4.837 0 0 0-.328-.19c-1.447-.768-3.182-.784-4.887-.043-1.712.743-3.188 2.156-4.155 3.98-1.2 2.261-1.43 4.842-.616 6.905z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M13.524 5.452c-.385.504-1.145-.253-2.186-1.05-1.042-.796-1.97-1.331-1.585-1.834.385-.504 1.542-.266 2.584.53 1.04.796 1.573 1.85 1.187 2.354z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M8.993 2.077c.001.376-.499.414-1.116.417-.617.003-1.117-.03-1.119-.407-.002-.376.497-.684 1.114-.687.617-.002 1.12.301 1.121.677z" />
+											</g>
+										</g>
+										<g opacity=".21">
+											<g opacity=".21">
+												<path fill="#371a45"
+													d="M15.171 4.151l-.023.024c-.008-.077.1-.022.01-.17-1.049.861-6.023 4.663-8.5 5.288-1.299.33-2.749.013-3.326-1.196l-.026-.056-.015-.036a7.472 7.472 0 0 1-.497-3.876c.095-.687.284-1.36.564-1.997a7.467 7.467 0 0 0-2.285 4.43 7.5 7.5 0 0 0 .09 2.56c.093.445.23.885.407 1.316l.015.035a7.514 7.514 0 0 0 1.13 1.866.027.027 0 0 0-.012.003c.01.005.02.011.03.02.028.031.054.064.081.096l.02-.007c.363.373 1.174 1.52 3.15 2.175.386.13.78.241 1.181.312a7.446 7.446 0 0 0 5.45-1.13 7.455 7.455 0 0 0 3.154-4.572c.094-.417.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.816z" />
+											</g>
+										</g>
+									</g>
+								</svg>
+							</li>
+							<li>
+								<svg class="icon-load" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+									viewBox="0 0 16 16">
+									<g>
+										<g>
+											<path fill="#371a45"
+												d="M8.169.348a7.619 7.619 0 1 1-.002 15.237A7.619 7.619 0 0 1 8.17.348zm0 14.806a7.188 7.188 0 1 0 0-14.375 7.188 7.188 0 0 0 0 14.375z" />
+										</g>
+										<g>
+											<path fill="#fc9e15"
+												d="M15.54 7.946a7.39 7.39 0 1 1-14.78 0 7.39 7.39 0 0 1 14.78 0z" />
+										</g>
+										<g opacity=".43">
+											<g opacity=".43">
+												<path fill="#fff"
+													d="M2.72 13.07c-.832-2.108-.6-4.74.622-7.043a9.556 9.556 0 0 1 1.872-2.474 8.206 8.206 0 0 1 2.363-1.58 6.419 6.419 0 0 1 2.56-.556h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.024-.058.058v.082h-.024l-.021-.013a4.604 4.604 0 0 0-.328-.19c-1.446-.768-3.181-.784-4.886-.043-1.712.743-3.188 2.157-4.156 3.98-1.2 2.261-1.43 4.843-.615 6.905z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M13.214 5.835c-.385.504-1.145-.253-2.186-1.05-1.04-.796-1.97-1.33-1.585-1.834s1.542-.266 2.583.53c1.042.796 1.573 1.85 1.188 2.354z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M8.683 2.46c.002.377-.499.414-1.116.417-.617.003-1.117-.03-1.119-.406-.002-.377.497-.684 1.114-.687.618-.003 1.12.3 1.121.676z" />
+											</g>
+										</g>
+										<g>
+											<path fill="#d66b09" d="M14.67 2.795a.247.247 0 0 1 .022.046" />
+										</g>
+										<g opacity=".21">
+											<g opacity=".21">
+												<path fill="#371a45"
+													d="M14.861 4.535l-.023.023c-.008-.076.101-.022.01-.17-1.049.861-6.023 4.663-8.499 5.289-1.3.328-2.749.012-3.327-1.197a1.031 1.031 0 0 1-.04-.091 7.447 7.447 0 0 1-.497-3.877 7.49 7.49 0 0 1 .564-1.997 7.461 7.461 0 0 0-2.285 4.43 7.477 7.477 0 0 0 .497 3.877l.015.035a7.492 7.492 0 0 0 .642 1.203c.008.013.015.025.024.037.145.218.3.426.463.625l-.011.003.03.019.081.097.019-.007c.364.373 1.174 1.52 3.149 2.175.388.129.781.241 1.182.312a7.445 7.445 0 0 0 5.449-1.131 7.445 7.445 0 0 0 3.155-4.571c.095-.416.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.815z" />
+											</g>
+										</g>
+									</g>
+								</svg>
+								<svg class="icon-load active" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+									viewBox="0 0 16 16">
+									<g>
+										<g>
+											<path fill="#371a45"
+												d="M8.479-.035a7.618 7.618 0 0 1 7.617 7.62A7.617 7.617 0 0 1 8.479 15.2a7.618 7.618 0 1 1 0-15.236zm0 14.806a7.187 7.187 0 0 0 7.187-7.187 7.188 7.188 0 1 0-7.187 7.187z" />
+										</g>
+										<g>
+											<path fill="#1ebc61"
+												d="M15.849 7.562a7.39 7.39 0 1 1-14.777.001 7.39 7.39 0 0 1 14.777 0z" />
+										</g>
+										<g opacity=".43">
+											<g opacity=".43">
+												<path fill="#fff"
+													d="M3.03 12.686c-.832-2.107-.6-4.74.622-7.043a9.608 9.608 0 0 1 1.87-2.474 8.24 8.24 0 0 1 2.364-1.58 6.415 6.415 0 0 1 2.561-.555h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.023-.058.058v.083h-.026l-.019-.013a4.837 4.837 0 0 0-.328-.19c-1.447-.768-3.182-.784-4.887-.043-1.712.743-3.188 2.156-4.155 3.98-1.2 2.261-1.43 4.842-.616 6.905z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M13.524 5.452c-.385.504-1.145-.253-2.186-1.05-1.042-.796-1.97-1.331-1.585-1.834.385-.504 1.542-.266 2.584.53 1.04.796 1.573 1.85 1.187 2.354z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M8.993 2.077c.001.376-.499.414-1.116.417-.617.003-1.117-.03-1.119-.407-.002-.376.497-.684 1.114-.687.617-.002 1.12.301 1.121.677z" />
+											</g>
+										</g>
+										<g opacity=".21">
+											<g opacity=".21">
+												<path fill="#371a45"
+													d="M15.171 4.151l-.023.024c-.008-.077.1-.022.01-.17-1.049.861-6.023 4.663-8.5 5.288-1.299.33-2.749.013-3.326-1.196l-.026-.056-.015-.036a7.472 7.472 0 0 1-.497-3.876c.095-.687.284-1.36.564-1.997a7.467 7.467 0 0 0-2.285 4.43 7.5 7.5 0 0 0 .09 2.56c.093.445.23.885.407 1.316l.015.035a7.514 7.514 0 0 0 1.13 1.866.027.027 0 0 0-.012.003c.01.005.02.011.03.02.028.031.054.064.081.096l.02-.007c.363.373 1.174 1.52 3.15 2.175.386.13.78.241 1.181.312a7.446 7.446 0 0 0 5.45-1.13 7.455 7.455 0 0 0 3.154-4.572c.094-.417.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.816z" />
+											</g>
+										</g>
+									</g>
+								</svg>
+							</li>
+							<li>
+								<svg class="icon-load active" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+									viewBox="0 0 16 16">
+									<g>
+										<g>
+											<path fill="#371a45"
+												d="M8.169.348a7.619 7.619 0 1 1-.002 15.237A7.619 7.619 0 0 1 8.17.348zm0 14.806a7.188 7.188 0 1 0 0-14.375 7.188 7.188 0 0 0 0 14.375z" />
+										</g>
+										<g>
+											<path fill="#fc9e15"
+												d="M15.54 7.946a7.39 7.39 0 1 1-14.78 0 7.39 7.39 0 0 1 14.78 0z" />
+										</g>
+										<g opacity=".43">
+											<g opacity=".43">
+												<path fill="#fff"
+													d="M2.72 13.07c-.832-2.108-.6-4.74.622-7.043a9.556 9.556 0 0 1 1.872-2.474 8.206 8.206 0 0 1 2.363-1.58 6.419 6.419 0 0 1 2.56-.556h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.024-.058.058v.082h-.024l-.021-.013a4.604 4.604 0 0 0-.328-.19c-1.446-.768-3.181-.784-4.886-.043-1.712.743-3.188 2.157-4.156 3.98-1.2 2.261-1.43 4.843-.615 6.905z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M13.214 5.835c-.385.504-1.145-.253-2.186-1.05-1.04-.796-1.97-1.33-1.585-1.834s1.542-.266 2.583.53c1.042.796 1.573 1.85 1.188 2.354z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M8.683 2.46c.002.377-.499.414-1.116.417-.617.003-1.117-.03-1.119-.406-.002-.377.497-.684 1.114-.687.618-.003 1.12.3 1.121.676z" />
+											</g>
+										</g>
+										<g>
+											<path fill="#d66b09" d="M14.67 2.795a.247.247 0 0 1 .022.046" />
+										</g>
+										<g opacity=".21">
+											<g opacity=".21">
+												<path fill="#371a45"
+													d="M14.861 4.535l-.023.023c-.008-.076.101-.022.01-.17-1.049.861-6.023 4.663-8.499 5.289-1.3.328-2.749.012-3.327-1.197a1.031 1.031 0 0 1-.04-.091 7.447 7.447 0 0 1-.497-3.877 7.49 7.49 0 0 1 .564-1.997 7.461 7.461 0 0 0-2.285 4.43 7.477 7.477 0 0 0 .497 3.877l.015.035a7.492 7.492 0 0 0 .642 1.203c.008.013.015.025.024.037.145.218.3.426.463.625l-.011.003.03.019.081.097.019-.007c.364.373 1.174 1.52 3.149 2.175.388.129.781.241 1.182.312a7.445 7.445 0 0 0 5.449-1.131 7.445 7.445 0 0 0 3.155-4.571c.095-.416.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.815z" />
+											</g>
+										</g>
+									</g>
+								</svg>
+								<svg class="icon-load" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+									viewBox="0 0 16 16">
+									<g>
+										<g>
+											<path fill="#371a45"
+												d="M8.479-.035a7.618 7.618 0 0 1 7.617 7.62A7.617 7.617 0 0 1 8.479 15.2a7.618 7.618 0 1 1 0-15.236zm0 14.806a7.187 7.187 0 0 0 7.187-7.187 7.188 7.188 0 1 0-7.187 7.187z" />
+										</g>
+										<g>
+											<path fill="#1ebc61"
+												d="M15.849 7.562a7.39 7.39 0 1 1-14.777.001 7.39 7.39 0 0 1 14.777 0z" />
+										</g>
+										<g opacity=".43">
+											<g opacity=".43">
+												<path fill="#fff"
+													d="M3.03 12.686c-.832-2.107-.6-4.74.622-7.043a9.608 9.608 0 0 1 1.87-2.474 8.24 8.24 0 0 1 2.364-1.58 6.415 6.415 0 0 1 2.561-.555h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.023-.058.058v.083h-.026l-.019-.013a4.837 4.837 0 0 0-.328-.19c-1.447-.768-3.182-.784-4.887-.043-1.712.743-3.188 2.156-4.155 3.98-1.2 2.261-1.43 4.842-.616 6.905z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M13.524 5.452c-.385.504-1.145-.253-2.186-1.05-1.042-.796-1.97-1.331-1.585-1.834.385-.504 1.542-.266 2.584.53 1.04.796 1.573 1.85 1.187 2.354z" />
+											</g>
+										</g>
+										<g opacity=".19">
+											<g opacity=".19">
+												<path fill="#fff"
+													d="M8.993 2.077c.001.376-.499.414-1.116.417-.617.003-1.117-.03-1.119-.407-.002-.376.497-.684 1.114-.687.617-.002 1.12.301 1.121.677z" />
+											</g>
+										</g>
+										<g opacity=".21">
+											<g opacity=".21">
+												<path fill="#371a45"
+													d="M15.171 4.151l-.023.024c-.008-.077.1-.022.01-.17-1.049.861-6.023 4.663-8.5 5.288-1.299.33-2.749.013-3.326-1.196l-.026-.056-.015-.036a7.472 7.472 0 0 1-.497-3.876c.095-.687.284-1.36.564-1.997a7.467 7.467 0 0 0-2.285 4.43 7.5 7.5 0 0 0 .09 2.56c.093.445.23.885.407 1.316l.015.035a7.514 7.514 0 0 0 1.13 1.866.027.027 0 0 0-.012.003c.01.005.02.011.03.02.028.031.054.064.081.096l.02-.007c.363.373 1.174 1.52 3.15 2.175.386.13.78.241 1.181.312a7.446 7.446 0 0 0 5.45-1.13 7.455 7.455 0 0 0 3.154-4.572c.094-.417.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.816z" />
+											</g>
+										</g>
+									</g>
+								</svg>
+							</li>
+						</ul>
+						<h3 class="tol-pay--title">Processing</h3>
+						<p class="tol-pay--text">Your crypto is on it's way</p>
+						<span class="tol-pay--span"><i>Estimated waiting time</i> : nearly done... </span>
+						<a id="wait-joke" class="tol-pay--link" href="#">What kind of car will you never see a bitcoiner
+							driving?</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="popup__overlay popup-farm-js">
+			<div class="popup">
+				<a href="#" class="popup__close"></a>
+				<div class="box-total">
+					<div class="box-total-holder">
+						<div class="box-total__title">TOTAL AMOUNT</div>
+						<div class="box-total__dollar">$<strong>0.00</strong></div>
+						<div class="box-total__txt">TRANSACTION FEE INCLUDED:<strong class="cost">$0.00</strong></div>
+						<div class="label">
+							<input type="checkbox" id="tt" name="scales">
+							<label for="tt">ADVANCED OPTIONS</label>
+						</div>
+						<div class="tol-pay">
+							<div class="tol-label">
+								<label for="#">MAX SLIPPAGE</label>
+								<button class="info-btn">
+									<div class="tooltip">
+										<p>If you don’t have XGT, 50% of
+											your DAI/xDAI amount will be
+											swapped for XGT
+										</p>
+									</div>
+									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+										<g>
+											<g>
+												<path fill="#606060"
+													d="M13.727 7.028A6.84 6.84 0 1 1 .048 7.027a6.84 6.84 0 0 1 13.679 0z" />
+											</g>
+											<g>
+												<path fill="#fff"
+													d="M6.513 10.54a9.935 9.935 0 0 0-.692.04 2.456 2.456 0 0 1-.165.013.927.927 0 0 0-.012-.083.679.679 0 0 1-.012-.105c0-.08.036-.126.107-.142.204-.04.369-.086.495-.142.125-.054.188-.145.188-.271V6.643c0-.236-.041-.404-.123-.507-.083-.102-.262-.165-.537-.188-.102-.016-.153-.071-.153-.166a.7.7 0 0 1 .023-.153c.102 0 .246-.006.43-.017.186-.012.338-.026.456-.041a6.9 6.9 0 0 0 .489-.101c.143-.035.246-.053.31-.053.11 0 .167.059.167.177 0 .11-.012.242-.036.395a4.243 4.243 0 0 0-.035.607V9.85c0 .126.06.217.183.27.12.057.292.104.513.143.062.016.094.063.094.142 0 .023-.002.059-.006.105-.004.048-.01.075-.018.083-.023 0-.076-.004-.16-.012a10.878 10.878 0 0 0-.684-.041 14.306 14.306 0 0 0-.822 0zm-.085-7.581a.644.644 0 0 1 .49-.208c.189 0 .346.07.47.208.127.136.19.3.19.488 0 .205-.063.37-.19.495a.636.636 0 0 1-.47.19.675.675 0 0 1-.49-.19.658.658 0 0 1-.194-.495.69.69 0 0 1 .194-.489z" />
+											</g>
+										</g>
+									</svg>
+								</button>
+							</div>
+							<div class="form-box">
+								<input class="form-box__input" type="text" placeholder="0">
+								<button class="form-box__btn">%</button>
+							</div>
+							<div class="label">
+								<input type="checkbox" id="ttt" name="scales">
+								<label for="ttt">PAY FOR GAS IN ETH</label>
+							</div>
+						</div>
+						<a href="#" class="btn-total btn-total_pink">APPROVE</a>
+						<a href="#" class="btn-total btn-total_transparent">CANCEL</a>
+						<div class="numb">1/<strong>2</strong></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="popup__overlay popup-new-total-js">
+			<div class="popup">
+				<a href="#" class="popup__close"></a>
+				<div class="box-total">
+					<div class="box-total-holder">
+						<div class="box-total__title">TOTAL AMOUNT</div>
+						<div class="box-total__dollar">$<strong>0.00</strong></div>
+						<div class="box-total__txt">TRANSACTION FEE INCLUDED:<strong class="cost">$0.00</strong></div>
+
+
+						<div class="tol-pay">
+							<ul class="tol-pay-loading">
+								<li>
+									<svg class="icon-load" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+										viewBox="0 0 16 16">
+										<g>
+											<g>
+												<path fill="#371a45"
+													d="M8.169.348a7.619 7.619 0 1 1-.002 15.237A7.619 7.619 0 0 1 8.17.348zm0 14.806a7.188 7.188 0 1 0 0-14.375 7.188 7.188 0 0 0 0 14.375z" />
+											</g>
+											<g>
+												<path fill="#fc9e15"
+													d="M15.54 7.946a7.39 7.39 0 1 1-14.78 0 7.39 7.39 0 0 1 14.78 0z" />
+											</g>
+											<g opacity=".43">
+												<g opacity=".43">
+													<path fill="#fff"
+														d="M2.72 13.07c-.832-2.108-.6-4.74.622-7.043a9.556 9.556 0 0 1 1.872-2.474 8.206 8.206 0 0 1 2.363-1.58 6.419 6.419 0 0 1 2.56-.556h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.024-.058.058v.082h-.024l-.021-.013a4.604 4.604 0 0 0-.328-.19c-1.446-.768-3.181-.784-4.886-.043-1.712.743-3.188 2.157-4.156 3.98-1.2 2.261-1.43 4.843-.615 6.905z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M13.214 5.835c-.385.504-1.145-.253-2.186-1.05-1.04-.796-1.97-1.33-1.585-1.834s1.542-.266 2.583.53c1.042.796 1.573 1.85 1.188 2.354z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M8.683 2.46c.002.377-.499.414-1.116.417-.617.003-1.117-.03-1.119-.406-.002-.377.497-.684 1.114-.687.618-.003 1.12.3 1.121.676z" />
+												</g>
+											</g>
+											<g>
+												<path fill="#d66b09" d="M14.67 2.795a.247.247 0 0 1 .022.046" />
+											</g>
+											<g opacity=".21">
+												<g opacity=".21">
+													<path fill="#371a45"
+														d="M14.861 4.535l-.023.023c-.008-.076.101-.022.01-.17-1.049.861-6.023 4.663-8.499 5.289-1.3.328-2.749.012-3.327-1.197a1.031 1.031 0 0 1-.04-.091 7.447 7.447 0 0 1-.497-3.877 7.49 7.49 0 0 1 .564-1.997 7.461 7.461 0 0 0-2.285 4.43 7.477 7.477 0 0 0 .497 3.877l.015.035a7.492 7.492 0 0 0 .642 1.203c.008.013.015.025.024.037.145.218.3.426.463.625l-.011.003.03.019.081.097.019-.007c.364.373 1.174 1.52 3.149 2.175.388.129.781.241 1.182.312a7.445 7.445 0 0 0 5.449-1.131 7.445 7.445 0 0 0 3.155-4.571c.095-.416.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.815z" />
+												</g>
+											</g>
+										</g>
+									</svg>
+									<svg class="icon-load active" xmlns="http://www.w3.org/2000/svg" width="16"
+										height="16" viewBox="0 0 16 16">
+										<g>
+											<g>
+												<path fill="#371a45"
+													d="M8.479-.035a7.618 7.618 0 0 1 7.617 7.62A7.617 7.617 0 0 1 8.479 15.2a7.618 7.618 0 1 1 0-15.236zm0 14.806a7.187 7.187 0 0 0 7.187-7.187 7.188 7.188 0 1 0-7.187 7.187z" />
+											</g>
+											<g>
+												<path fill="#1ebc61"
+													d="M15.849 7.562a7.39 7.39 0 1 1-14.777.001 7.39 7.39 0 0 1 14.777 0z" />
+											</g>
+											<g opacity=".43">
+												<g opacity=".43">
+													<path fill="#fff"
+														d="M3.03 12.686c-.832-2.107-.6-4.74.622-7.043a9.608 9.608 0 0 1 1.87-2.474 8.24 8.24 0 0 1 2.364-1.58 6.415 6.415 0 0 1 2.561-.555h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.023-.058.058v.083h-.026l-.019-.013a4.837 4.837 0 0 0-.328-.19c-1.447-.768-3.182-.784-4.887-.043-1.712.743-3.188 2.156-4.155 3.98-1.2 2.261-1.43 4.842-.616 6.905z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M13.524 5.452c-.385.504-1.145-.253-2.186-1.05-1.042-.796-1.97-1.331-1.585-1.834.385-.504 1.542-.266 2.584.53 1.04.796 1.573 1.85 1.187 2.354z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M8.993 2.077c.001.376-.499.414-1.116.417-.617.003-1.117-.03-1.119-.407-.002-.376.497-.684 1.114-.687.617-.002 1.12.301 1.121.677z" />
+												</g>
+											</g>
+											<g opacity=".21">
+												<g opacity=".21">
+													<path fill="#371a45"
+														d="M15.171 4.151l-.023.024c-.008-.077.1-.022.01-.17-1.049.861-6.023 4.663-8.5 5.288-1.299.33-2.749.013-3.326-1.196l-.026-.056-.015-.036a7.472 7.472 0 0 1-.497-3.876c.095-.687.284-1.36.564-1.997a7.467 7.467 0 0 0-2.285 4.43 7.5 7.5 0 0 0 .09 2.56c.093.445.23.885.407 1.316l.015.035a7.514 7.514 0 0 0 1.13 1.866.027.027 0 0 0-.012.003c.01.005.02.011.03.02.028.031.054.064.081.096l.02-.007c.363.373 1.174 1.52 3.15 2.175.386.13.78.241 1.181.312a7.446 7.446 0 0 0 5.45-1.13 7.455 7.455 0 0 0 3.154-4.572c.094-.417.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.816z" />
+												</g>
+											</g>
+										</g>
+									</svg>
+								</li>
+								<li>
+									<svg class="icon-load" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+										viewBox="0 0 16 16">
+										<g>
+											<g>
+												<path fill="#371a45"
+													d="M8.169.348a7.619 7.619 0 1 1-.002 15.237A7.619 7.619 0 0 1 8.17.348zm0 14.806a7.188 7.188 0 1 0 0-14.375 7.188 7.188 0 0 0 0 14.375z" />
+											</g>
+											<g>
+												<path fill="#fc9e15"
+													d="M15.54 7.946a7.39 7.39 0 1 1-14.78 0 7.39 7.39 0 0 1 14.78 0z" />
+											</g>
+											<g opacity=".43">
+												<g opacity=".43">
+													<path fill="#fff"
+														d="M2.72 13.07c-.832-2.108-.6-4.74.622-7.043a9.556 9.556 0 0 1 1.872-2.474 8.206 8.206 0 0 1 2.363-1.58 6.419 6.419 0 0 1 2.56-.556h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.024-.058.058v.082h-.024l-.021-.013a4.604 4.604 0 0 0-.328-.19c-1.446-.768-3.181-.784-4.886-.043-1.712.743-3.188 2.157-4.156 3.98-1.2 2.261-1.43 4.843-.615 6.905z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M13.214 5.835c-.385.504-1.145-.253-2.186-1.05-1.04-.796-1.97-1.33-1.585-1.834s1.542-.266 2.583.53c1.042.796 1.573 1.85 1.188 2.354z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M8.683 2.46c.002.377-.499.414-1.116.417-.617.003-1.117-.03-1.119-.406-.002-.377.497-.684 1.114-.687.618-.003 1.12.3 1.121.676z" />
+												</g>
+											</g>
+											<g>
+												<path fill="#d66b09" d="M14.67 2.795a.247.247 0 0 1 .022.046" />
+											</g>
+											<g opacity=".21">
+												<g opacity=".21">
+													<path fill="#371a45"
+														d="M14.861 4.535l-.023.023c-.008-.076.101-.022.01-.17-1.049.861-6.023 4.663-8.499 5.289-1.3.328-2.749.012-3.327-1.197a1.031 1.031 0 0 1-.04-.091 7.447 7.447 0 0 1-.497-3.877 7.49 7.49 0 0 1 .564-1.997 7.461 7.461 0 0 0-2.285 4.43 7.477 7.477 0 0 0 .497 3.877l.015.035a7.492 7.492 0 0 0 .642 1.203c.008.013.015.025.024.037.145.218.3.426.463.625l-.011.003.03.019.081.097.019-.007c.364.373 1.174 1.52 3.149 2.175.388.129.781.241 1.182.312a7.445 7.445 0 0 0 5.449-1.131 7.445 7.445 0 0 0 3.155-4.571c.095-.416.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.815z" />
+												</g>
+											</g>
+										</g>
+									</svg>
+									<svg class="icon-load active" xmlns="http://www.w3.org/2000/svg" width="16"
+										height="16" viewBox="0 0 16 16">
+										<g>
+											<g>
+												<path fill="#371a45"
+													d="M8.479-.035a7.618 7.618 0 0 1 7.617 7.62A7.617 7.617 0 0 1 8.479 15.2a7.618 7.618 0 1 1 0-15.236zm0 14.806a7.187 7.187 0 0 0 7.187-7.187 7.188 7.188 0 1 0-7.187 7.187z" />
+											</g>
+											<g>
+												<path fill="#1ebc61"
+													d="M15.849 7.562a7.39 7.39 0 1 1-14.777.001 7.39 7.39 0 0 1 14.777 0z" />
+											</g>
+											<g opacity=".43">
+												<g opacity=".43">
+													<path fill="#fff"
+														d="M3.03 12.686c-.832-2.107-.6-4.74.622-7.043a9.608 9.608 0 0 1 1.87-2.474 8.24 8.24 0 0 1 2.364-1.58 6.415 6.415 0 0 1 2.561-.555h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.023-.058.058v.083h-.026l-.019-.013a4.837 4.837 0 0 0-.328-.19c-1.447-.768-3.182-.784-4.887-.043-1.712.743-3.188 2.156-4.155 3.98-1.2 2.261-1.43 4.842-.616 6.905z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M13.524 5.452c-.385.504-1.145-.253-2.186-1.05-1.042-.796-1.97-1.331-1.585-1.834.385-.504 1.542-.266 2.584.53 1.04.796 1.573 1.85 1.187 2.354z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M8.993 2.077c.001.376-.499.414-1.116.417-.617.003-1.117-.03-1.119-.407-.002-.376.497-.684 1.114-.687.617-.002 1.12.301 1.121.677z" />
+												</g>
+											</g>
+											<g opacity=".21">
+												<g opacity=".21">
+													<path fill="#371a45"
+														d="M15.171 4.151l-.023.024c-.008-.077.1-.022.01-.17-1.049.861-6.023 4.663-8.5 5.288-1.299.33-2.749.013-3.326-1.196l-.026-.056-.015-.036a7.472 7.472 0 0 1-.497-3.876c.095-.687.284-1.36.564-1.997a7.467 7.467 0 0 0-2.285 4.43 7.5 7.5 0 0 0 .09 2.56c.093.445.23.885.407 1.316l.015.035a7.514 7.514 0 0 0 1.13 1.866.027.027 0 0 0-.012.003c.01.005.02.011.03.02.028.031.054.064.081.096l.02-.007c.363.373 1.174 1.52 3.15 2.175.386.13.78.241 1.181.312a7.446 7.446 0 0 0 5.45-1.13 7.455 7.455 0 0 0 3.154-4.572c.094-.417.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.816z" />
+												</g>
+											</g>
+										</g>
+									</svg>
+								</li>
+								<li>
+									<svg class="icon-load active" xmlns="http://www.w3.org/2000/svg" width="16"
+										height="16" viewBox="0 0 16 16">
+										<g>
+											<g>
+												<path fill="#371a45"
+													d="M8.169.348a7.619 7.619 0 1 1-.002 15.237A7.619 7.619 0 0 1 8.17.348zm0 14.806a7.188 7.188 0 1 0 0-14.375 7.188 7.188 0 0 0 0 14.375z" />
+											</g>
+											<g>
+												<path fill="#fc9e15"
+													d="M15.54 7.946a7.39 7.39 0 1 1-14.78 0 7.39 7.39 0 0 1 14.78 0z" />
+											</g>
+											<g opacity=".43">
+												<g opacity=".43">
+													<path fill="#fff"
+														d="M2.72 13.07c-.832-2.108-.6-4.74.622-7.043a9.556 9.556 0 0 1 1.872-2.474 8.206 8.206 0 0 1 2.363-1.58 6.419 6.419 0 0 1 2.56-.556h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.024-.058.058v.082h-.024l-.021-.013a4.604 4.604 0 0 0-.328-.19c-1.446-.768-3.181-.784-4.886-.043-1.712.743-3.188 2.157-4.156 3.98-1.2 2.261-1.43 4.843-.615 6.905z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M13.214 5.835c-.385.504-1.145-.253-2.186-1.05-1.04-.796-1.97-1.33-1.585-1.834s1.542-.266 2.583.53c1.042.796 1.573 1.85 1.188 2.354z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M8.683 2.46c.002.377-.499.414-1.116.417-.617.003-1.117-.03-1.119-.406-.002-.377.497-.684 1.114-.687.618-.003 1.12.3 1.121.676z" />
+												</g>
+											</g>
+											<g>
+												<path fill="#d66b09" d="M14.67 2.795a.247.247 0 0 1 .022.046" />
+											</g>
+											<g opacity=".21">
+												<g opacity=".21">
+													<path fill="#371a45"
+														d="M14.861 4.535l-.023.023c-.008-.076.101-.022.01-.17-1.049.861-6.023 4.663-8.499 5.289-1.3.328-2.749.012-3.327-1.197a1.031 1.031 0 0 1-.04-.091 7.447 7.447 0 0 1-.497-3.877 7.49 7.49 0 0 1 .564-1.997 7.461 7.461 0 0 0-2.285 4.43 7.477 7.477 0 0 0 .497 3.877l.015.035a7.492 7.492 0 0 0 .642 1.203c.008.013.015.025.024.037.145.218.3.426.463.625l-.011.003.03.019.081.097.019-.007c.364.373 1.174 1.52 3.149 2.175.388.129.781.241 1.182.312a7.445 7.445 0 0 0 5.449-1.131 7.445 7.445 0 0 0 3.155-4.571c.095-.416.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.815z" />
+												</g>
+											</g>
+										</g>
+									</svg>
+									<svg class="icon-load" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+										viewBox="0 0 16 16">
+										<g>
+											<g>
+												<path fill="#371a45"
+													d="M8.479-.035a7.618 7.618 0 0 1 7.617 7.62A7.617 7.617 0 0 1 8.479 15.2a7.618 7.618 0 1 1 0-15.236zm0 14.806a7.187 7.187 0 0 0 7.187-7.187 7.188 7.188 0 1 0-7.187 7.187z" />
+											</g>
+											<g>
+												<path fill="#1ebc61"
+													d="M15.849 7.562a7.39 7.39 0 1 1-14.777.001 7.39 7.39 0 0 1 14.777 0z" />
+											</g>
+											<g opacity=".43">
+												<g opacity=".43">
+													<path fill="#fff"
+														d="M3.03 12.686c-.832-2.107-.6-4.74.622-7.043a9.608 9.608 0 0 1 1.87-2.474 8.24 8.24 0 0 1 2.364-1.58 6.415 6.415 0 0 1 2.561-.555h.004a5.202 5.202 0 0 1 2.784.788h.01l.025.023-.058.058v.083h-.026l-.019-.013a4.837 4.837 0 0 0-.328-.19c-1.447-.768-3.182-.784-4.887-.043-1.712.743-3.188 2.156-4.155 3.98-1.2 2.261-1.43 4.842-.616 6.905z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M13.524 5.452c-.385.504-1.145-.253-2.186-1.05-1.042-.796-1.97-1.331-1.585-1.834.385-.504 1.542-.266 2.584.53 1.04.796 1.573 1.85 1.187 2.354z" />
+												</g>
+											</g>
+											<g opacity=".19">
+												<g opacity=".19">
+													<path fill="#fff"
+														d="M8.993 2.077c.001.376-.499.414-1.116.417-.617.003-1.117-.03-1.119-.407-.002-.376.497-.684 1.114-.687.617-.002 1.12.301 1.121.677z" />
+												</g>
+											</g>
+											<g opacity=".21">
+												<g opacity=".21">
+													<path fill="#371a45"
+														d="M15.171 4.151l-.023.024c-.008-.077.1-.022.01-.17-1.049.861-6.023 4.663-8.5 5.288-1.299.33-2.749.013-3.326-1.196l-.026-.056-.015-.036a7.472 7.472 0 0 1-.497-3.876c.095-.687.284-1.36.564-1.997a7.467 7.467 0 0 0-2.285 4.43 7.5 7.5 0 0 0 .09 2.56c.093.445.23.885.407 1.316l.015.035a7.514 7.514 0 0 0 1.13 1.866.027.027 0 0 0-.012.003c.01.005.02.011.03.02.028.031.054.064.081.096l.02-.007c.363.373 1.174 1.52 3.15 2.175.386.13.78.241 1.181.312a7.446 7.446 0 0 0 5.45-1.13 7.455 7.455 0 0 0 3.154-4.572c.094-.417.131-.843.176-1.269.22-2.039-.753-3.51-.774-3.816z" />
+												</g>
+											</g>
+										</g>
+									</svg>
+								</li>
+							</ul>
+							<h3 class="tol-pay--title">Processing</h3>
+							<p class="tol-pay--text">Please wait to approve your second transaction</p>
+							<!-- <p class="tol-pay--text">You can now approve your second transaction</p> -->
+
+							<span class="tol-pay--span"><i>Estimated waiting time</i> : nearly done... </span>
+							<!-- <span class="tol-pay--span"><i>Estimated waiting time :</i> done...  </span> -->
+							<a class="tol-pay--link" href="#">What kind of car will you never see a bitcoiner
+								driving?</a>
+						</div>
+
+
+						<a href="#" class="btn-total btn-total_pink disable">APPROVE</a>
+						<div href="#" class="btn-total btn-total_transparent btn-total--info">
+
+							CANCEL
+
+
+							<div class="btn-aprove">
+								<p class="btn-aprove-text">Hold up, wait a minute, you need to approve the second
+									transaction. If cancelled, you’ll have to contact support to manually claim your
+									crypto. Still want to cancel? </p>
+
+								<div class="btn-aprove--buttons">
+									<a class="btn-aprove-item btn-aprove-item-red">No</a>
+									<a class="btn-aprove-item btn-aprove-item-green">Yes</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="numb">1/<strong>2</strong></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="newpopup" class="popup__overlay popup-new-js">
+			<div class="popup">
+
+
+				<span class="popup__close"></span>
+				<div class="tabs">
+					<h2 class="tabs-title">BANK ACCOUNT DETAILS</h2>
+					<div class="tabs-head">
+						<input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+						<label for="tab-btn-1">INDIVIDUAL</label>
+						<input type="radio" name="tab-btn" id="tab-btn-2" value="">
+						<label for="tab-btn-2" class="disabled">BUSINESS <i>(coming soon)</i></label>
+					</div>
+
+					<div id="content-1">
+						<div class="custom-select" style="width: calc(100% - 30px);">
+							<i>COUNTRY OF BENEFICIARY BANK</i>
+							<select id="country-select">
+								<option value="us">United States</option>
+								<option value="us">United States</option>
+								<option value="eu">EU</option>
+								<option value="au">Australia</option>
+								<option value="cn">China</option>
+								<option value="br">Brazil</option>
+								<option value="mx">Mexico</option>
+							</select>
+						</div>
+
+
+						<div class="custom-select" style="width: calc(100% - 30px);">
+							<i>CURRENCY</i>
+							<select id="currency-select">
+								<option value="USD">USD (US Dollar)</option>
+								<option value="USD">USD (US Dollar)</option>
+								<option value="EUR">EUR (Euro)</option>
+								<option value="SHP">SHP (St. Helena Pound)</option>
+								<option value="AUD">AUD (Australian Dollar)</option>
+								<option value="NOK">NOK (Norwegian Kroner)</option>
+								<option value="BRL">BRL (Brazilian Real)</option>
+								<option value="CAD">CAD (Canadian Dollar)</option>
+								<option value="CZK">CZK (Czech Koruna)</option>
+								<option value="DKK">DKK (Danish Krone)</option>
+								<option value="PLN">PLN (Polish Zloty)</option>
+								<option value="RON">RON (Romanian New Leu)</option>
+								<option value="RSD">RSD (Serbian Dinar)</option>
+								<option value="SGD">SGD (Singapore Dollar)</option>
+								<option value="ZAR">ZAR (South African Rand)</option>
+								<option value="KRW">KRW (Korean Won)</option>
+								<option value="SEK">SEK (Swedish Krona)</option>
+								<option value="CHF">CHF (Swiss Franc)</option>
+								<option value="UAH">UAH (Ukraine Hryvnia)</option>
+								<option value="GBP">GBP (United Kingdom Pound)</option>
+								<option value="FKP">FKP (Falkland Islands Pound)</option>
+								<option value="GIP">GIP (Gibraltar Pound)</option>
+								<option value="HKD">HKD (Hong Kong Dollar)</option>
+								<option value="HUF">HUF (Hungarian Forint)</option>
+								<option value="ISK">ISK (Iceland Krona)</option>
+								<option value="INR">INR (Indian Rupee)</option>
+								<option value="JPY">JPY (Japanese Yen)</option>
+								<option value="MXN">MXN (Mexican peso)</option>
+
+							</select>
+						</div>
+
+						<div id="payout-bankname-br" class="custom-select" style="width: calc(100% - 30px);">
+							<i>BANK NAME</i>
+							<select id="bankname-select-br">
+								<option value="121">Banco Agiplan S.A.</option>
+								<option value="237">Banco Bradesco S.A."</option>
+								<option value="745">Banco Citibank S.A.</option>
+								<option value="756">Banco Cooperativo do Brasil S.A. - BANCOOB/SICOOB</option>
+								<option value="748">Banco Cooperativo Sicredi S.A.</option>
+								<option value="707">Banco Daycoval S.A.</option>
+								<option value="001">Banco do Brasil S.A.</option>
+								<option value="041">Banco do Estado do Rio Grande do Sul S.A./Banco Banrisul S.A.
+								</option>
+								<option value="004">Banco do Nordeste do Brasil S.A.</option>
+								<option value="077">Banco Inter S.A./Banco Intermedium</option>
+								<option value="389">Banco Mercantil do Brasil S.A.</option>
+								<option value="212">Banco Original S.A.</option>
+								<option value="735">Banco Pottencial S.A./Banco Neon S.A</option>
+								<option value="633">Banco Rendimento S.A.</option>
+								<option value="422">Banco Safra S.A.</option>
+								<option value="033">Banco Santander (Brasil) S.A.</option>
+								<option value="637">Banco Sofisa S.A.</option>
+								<option value="021">BANESTES S.A. Banco do Estado do Espírito Santo</option>
+								<option value="070">BRB - Banco de Brasília S.A.</option>
+								<option value="104">Caixa Econômica Federal</option>
+								<option value="085">Cooperativa Central de Crédito Urbano - CECRED</option>
+								<option value="341">Itaú Unibanco S.A.</option>
+								<option value="260">Nu Pagamentos S.A.</option>
+							</select>
+						</div>
+						<div id="payout-bankname-cn" class="custom-select" style="width: calc(100% - 30px);">
+							<i>BANK NAME</i>
+							<select id="bankname-select-cn">
+								<option>Agricultural Bank of China (中国农业银行)</option>
+								<option>Bank of Beijing (北京银行)</option>
+								<option>Bank of China (中国银行)</option>
+								<option>Bank of Communications (交通银行)</option>
+								<option>China CITIC Bank (中信银行)</option>
+								<option>China Construction Bank (中国建设银行)</option>
+								<option>China Guangfa Bank (广发银行)</option>
+								<option>China Merchants Bank (招商银行)</option>
+								<option>China Minsheng Bank (中国民生银行)</option>
+								<option>Huaxia Bank (华夏银行)</option>
+								<option>ICBC (Industrial & Commercial Bank of China) (中国工商银行)</option>
+								<option>Industrial Bank (兴业银行)</option>
+								<option>Ping An Bank (平安银行)</option>
+								<option>Postal Savings Bank of China (中国邮政储蓄银行)</option>
+								<option>Shanghai Pudong Development Bank (上海浦东发展银行)</option>
+								<option>Bank of Shanghai (上海银行)</option>
+
+							</select>
+						</div>
+						<input id="payout-branchcode" class="accordion-button" type="text" placeholder="Branch Code">
+
+						<div id="payout-branchname" class="custom-select" style="width: calc(100% - 30px);">
+							<i>BRANCH NAME</i>
+							<select id="branchname-select">
+								<option>Test</option>
+							</select>
+						</div>
+
+						<input id="payout-bankcity" class="accordion-button" type="text" placeholder="Bank City">
+						<input id="payout-bankprovince" class="accordion-button" type="text"
+							placeholder="Bank Province">
+
+						<input id="payout-accountnumber" class="accordion-button" type="text"
+							placeholder="Account Number">
+						<input id="payout-swift" class="accordion-button" type="text" placeholder="Swift / BIC">
+						<input id="payout-bsb" class="accordion-button" type="text" placeholder="BSB Number">
+						<input id="payout-clabe" class="accordion-button" type="text" placeholder="Clabe">
+						<input id="payout-achrouting" class="accordion-button" type="text"
+							placeholder="ACH Routing Number">
+
+						<div id="payout-accounttype" class="custom-select" style="width: calc(100% - 30px);">
+							<i>ACCOUNT TYPE</i>
+							<select id="accounttype-select">
+								<option value="CH">Checking</option>
+								<option value="CH">Checking</option>
+								<option value="SV">Savings</option>
+							</select>
+						</div>
+
+						<input id="payout-chineseid" class="accordion-button" type="text"
+							placeholder="Chinese National ID">
+						<input id="payout-brazilid" class="accordion-button" type="text"
+							placeholder="CPF & CNPJ Number">
+						<input id="payout-fullname" class="accordion-button" type="text" placeholder="Name on Account">
+						<input id="payout-firstname" class="accordion-button" type="text"
+							placeholder="First Name on Account">
+						<input id="payout-lastname" class="accordion-button" type="text"
+							placeholder="Last Name on Account">
+						<div id="payout-mobile" class="accordion-button">
+							<i>MOBILE NUMBER</i>
+							<input type="tel" id="demo" placeholder="+1201 - 555 - 0123">
+						</div>
+
+
+						<div id="payout-dob" class="accordion-button">
+							<i>DATE OF BIRTH</i>
+							<input type="date" id="start" value="1980-01-01" min="1910-01-01" max="2005-12-31">
+						</div>
+
+						<input id="payout-address1" class="accordion-button" type="text"
+							placeholder="Beneficiary Street Address">
+						<input id="payout-address2" class="accordion-button" type="text"
+							placeholder="Beneficiary Street Address 2">
+						<input id="payout-state" class="accordion-button" type="text"
+							placeholder="Beneficiary State / Province">
+						<input id="payout-city" class="accordion-button" type="text" placeholder="Beneficiary City">
+						<input id="payout-zip" class="accordion-button" type="text"
+							placeholder="Beneficiary Postal Code / ZIP Code">
+
+
+						<div class="tabs-button">
+							<a href="#" class="btn-total btn-total--info">CONTINUE</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="join_chat" onclick="navigateByURL('https://discord.gg/QfKm5jsq6d')">
+			<img src="images/join_chat-min.png" alt="Chat">
+		</div>
+
+
+		<script src="js/site.js"></script>
+		<script src="js/loading-bar.min.js"></script>
+		<script src="js/intlTelInput.min.js"></script>
+
+		<script>
+			window.addEventListener("load", () => {
+				$("#demo").intlTelInput();
+
+				$('.country').on('click', function () {
+					var countryCode = $('.highlight').attr('data-dial-code');
+					$('#demo').val('+' + countryCode);
+				})
+
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+					acc[i].addEventListener("click", function () {
+						this.classList.toggle("active");
+						var panel = this.nextElementSibling;
+
+						panel.style.display = "block"
+						if (panel.style.maxHeight) {
+							panel.style.maxHeight = null;
+
+						} else {
+							panel.style.maxHeight = panel.scrollHeight + "px";
+						}
+					});
+				}
+			});
+		</script>
+
+		<script type="text/javascript" src="https://unpkg.com/js-cookie@rc/dist/js.cookie.min.js"></script>
+		<script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+		<script type="text/javascript" src="https://unpkg.com/big.js@5.2.2/big.min.js"></script>
+		<script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
+		<script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
+		<script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js">
+		</script>
+		<script type="text/javascript" src="https://unpkg.com/@toruslabs/torus-embed"></script>
+		<script type="text/javascript" src="https://unpkg.com/authereum@0.1.0/authereum.js">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/@ramp-network/ramp-instant-sdk@2.3.0/dist/ramp-instant-sdk.umd.js"
+			integrity="sha256-heFylj/fcCZffQpQuqUmrk1e08vdaGcpw0w9mWGnbz4=" crossorigin="anonymous"></script>
+		<script async type="text/javascript" src="js/connect-wallet.js"></script>
+		<script src="https://browser.sentry-cdn.com/6.1.0/bundle.tracing.min.js"
+			integrity="sha384-zKY6TGhvvk56kzNuSSpDCYYF5IU+xaSN4YmCDBCq/l98ITbn+9I+2/LZ2clNwe80" crossorigin="anonymous">
+		</script>
+		<script src="//app.helphero.co/embed/r2KMdzcgHWn"></script>
+		<!-- Facebook Pixel Code -->
+		<script>
+			! function (f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function () {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '2782184455149090');
+			fbq('track', 'PageView');
+		</script>
+		<noscript><img loading="lazy" height="1" width="1" style="display:none"
+				src="https://www.facebook.com/tr?id=2782184455149090&ev=PageView&noscript=1" /></noscript>
+		<!-- End Facebook Pixel Code -->
+		<script type="text/javascript">
+			window._mfq = window._mfq || [];
+			(function () {
+				var mf = document.createElement("script");
+				mf.type = "text/javascript";
+				mf.defer = true;
+				mf.src = "//cdn.mouseflow.com/projects/2f3885b0-c592-42bb-8e10-87110ffb3b19.js";
+				document.getElementsByTagName("head")[0].appendChild(mf);
+			})();
+		</script>
+
+		<script data-cookie-notice='{ "learnMoreLinkEnabled": true, "learnMoreLinkHref": "privacy_policy.html" }'
+			src="js/cookie.notice.min.js"></script>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_home_mobile",
+						"name": "Home",
+						"url": "https://xion.finance"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_earn_mobile",
+						"name": "Earn",
+						"url": "https://xion.finance/earn"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_earn",
+						"name": "Earn",
+						"url": "https://xion.finance/earn"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_farm_mobile",
+						"name": "Farm",
+						"url": "https://xion.finance/farm"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_farm",
+						"name": "Farm",
+						"url": "https://xion.finance/farm"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_shop_mobile",
+						"name": "Shop",
+						"url": "https://xion.finance/shop"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_shop",
+						"name": "Shop",
+						"url": "https://xion.finance/shop"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_withdraw_mobile",
+						"name": "Withdraw",
+						"url": "https://xion.finance/withdraw"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_withdraw",
+						"name": "Withdraw",
+						"url": "https://xion.finance/withdraw"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_coingecko",
+						"name": "CoinGecko",
+						"url": "https://www.coingecko.com/en/coins/xion-global-token"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_coincodex",
+						"name": "coincodex",
+						"url": "https://coincodex.com/crypto/xion-global-token/"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_coinmarketcap",
+						"name": "CoinMarketCap",
+						"url": "https://coinmarketcap.com/currencies/xion-finance/"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_etherscan",
+						"name": "ETHERSCAN",
+						"url": "https://etherscan.io/address/0xC25AF3123d2420054c8fcd144c21113aa2853F39"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_bscscan",
+						"name": "BscScan",
+						"url": "https://bscscan.com/token/0xC25AF3123d2420054c8fcd144c21113aa2853F39"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_blockscout",
+						"name": "BlockScout",
+						"url": "https://blockscout.com/poa/xdai/address/0xC25AF3123d2420054c8fcd144c21113aa2853F39"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_home",
+						"name": "Home",
+						"url": "https://xion.finance"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_documentation",
+						"name": "Documentation",
+						"url": "https://xionwiki.gitbook.io/xion.finance/"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_github",
+						"name": "GitHub",
+						"url": "https://github.com/xion-global"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_reinvest",
+						"name": "Merchant Sign Up",
+						"url": "https://xion.global"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_buy_with_xdai",
+						"name": "Buy BNB with xDAI",
+						"url": "https://xionfinance.gitbook.io/xion-finance-wiki/how-to-move-from-xdai-to-bsc"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_about_us",
+						"name": "About Us",
+						"url": "https://xion.finance/about_us"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_terms",
+						"name": "Terms & Conditions",
+						"url": "https://xion.finance/terms_conditions"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_privacy",
+						"name": "Privacy Policy",
+						"url": "https://xion.finance/privacy_policy"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_home_xion",
+						"name": "Home",
+						"url": "https://xion.global"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_telegram",
+						"name": "Telegram",
+						"url": "https://t.me/xionglobal"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_discord",
+						"name": "Discord",
+						"url": "https://discord.gg/Q633ztSpZN"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_medium",
+						"name": "Medium",
+						"url": "https://xionglobal.medium.com/"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_twitter",
+						"name": "Twitter",
+						"url": "https://twitter.com/xionfinance"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_github_link",
+						"name": "Github",
+						"url": "https://github.com/xion-global"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_start_earn",
+						"name": "Start Earn",
+						"url": "https://www.xion.global/start-earning-with-xion-finance/"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_start_farm",
+						"name": "Start Farm",
+						"url": "https://www.xion.global/start-farming-with-xion-finance/"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_start_shop",
+						"name": "Start Shop",
+						"url": "https://www.xion.global/shopping-xgt-rewards-with-xion-finance"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_start_withdraw",
+						"name": "Withdraw",
+						"url": "https://www.xion.global/purchase-withdraw-swap-with-xion-finance"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_whitepaper",
+						"name": "Whitepaper",
+						"url": "https://www.xion.global/wp-content/uploads/2021/02/XION-GLOBAL-WHITEPAPER.pdf"
+					},
+					{
+						"@context": "https://schema.org",
+						"@type": "SiteNavigationElement",
+						"@id": "#navigate_xgt_token",
+						"name": "XGT Token",
+						"url": "https://www.xion.global/wp-content/uploads/2021/02/XION-GLOBAL-TOKEN-INFO-TERMS.pdf"
+					}
+				]
+			}
+		</script>
+</body>
+
+</html>

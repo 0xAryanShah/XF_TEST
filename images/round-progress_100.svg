@@ -1,0 +1,57 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209 208" width="209" height="208">
+	<title>round-progress-100-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M14 11L200 11L200 196L14 196L14 11Z" />
+		</clipPath>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="105.5" y1="12.782" x2="105.5" y2="185.974">
+			<stop offset="0" stop-color="#ff00ff"  />
+			<stop offset="0.017" stop-color="#fb03ff"  />
+			<stop offset="0.503" stop-color="#995cf8"  />
+			<stop offset="0.84" stop-color="#5b94f5"  />
+			<stop offset="1" stop-color="#43aaf3"  />
+		</linearGradient>
+		<radialGradient id="grd2" gradientUnits="userSpaceOnUse"  cx="105.5" cy="104.5" r="90.863">
+			<stop offset="0.846" stop-color="#ffffff"  />
+			<stop offset="0.874" stop-color="#fbfbfb"  />
+			<stop offset="0.9" stop-color="#f0f0f0"  />
+			<stop offset="0.927" stop-color="#dcdcdc"  />
+			<stop offset="0.952" stop-color="#c1c1c1"  />
+			<stop offset="0.978" stop-color="#9e9e9e"  />
+			<stop offset="1" stop-color="#7a7a7a"  />
+		</radialGradient>
+		<radialGradient id="grd3" gradientUnits="userSpaceOnUse"  cx="105" cy="105" r="75">
+			<stop offset="0.836" stop-color="#000000"  />
+			<stop offset="0.893" stop-color="#050505"  />
+			<stop offset="0.959" stop-color="#131313"  />
+			<stop offset="1" stop-color="#1f1f1f"  />
+		</radialGradient>
+		<radialGradient id="grd4" gradientUnits="userSpaceOnUse"  cx="118.736" cy="154.462" r="149.329">
+			<stop offset="0" stop-color="#1f1f1f"  />
+			<stop offset="0.249" stop-color="#131313"  />
+			<stop offset="0.65" stop-color="#050505"  />
+			<stop offset="1" stop-color="#000000"  />
+		</radialGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { mix-blend-mode: color-dodge;fill: #fcfcfc } 
+		.shp2 { mix-blend-mode: color-burn;fill: url(#grd2) } 
+		.shp3 { mix-blend-mode: color-dodge;fill: url(#grd3) } 
+		.shp4 { mix-blend-mode: color-dodge;fill: url(#grd4) } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<path id="Layer" class="shp0" d="M169.75 168.75C205.23 133.27 205.23 75.74 169.75 40.25C134.27 4.77 76.73 4.77 41.25 40.25C5.77 75.74 5.77 133.27 41.25 168.75C76.73 204.24 134.27 204.24 169.75 168.75Z" />
+		</g>
+	</g>
+	<g id="Layer" style="opacity: 0.902">
+		<path id="Layer" class="shp1" d="M105 180C146.42 180 180 146.42 180 105C180 63.58 146.42 30 105 30C63.58 30 30 63.58 30 105C30 146.42 63.58 180 105 180Z" />
+	</g>
+	<path id="Layer" class="shp2" d="M169.75 168.75C205.23 133.27 205.23 75.73 169.75 40.25C134.27 4.77 76.73 4.77 41.25 40.25C5.77 75.73 5.77 133.27 41.25 168.75C76.73 204.23 134.27 204.23 169.75 168.75Z" />
+	<g id="Layer">
+		<path id="Layer" class="shp3" d="M105 180C146.42 180 180 146.42 180 105C180 63.58 146.42 30 105 30C63.58 30 30 63.58 30 105C30 146.42 63.58 180 105 180Z" />
+	</g>
+	<path id="Layer" class="shp4" d="M57.41 125.1C79.87 102.69 113.22 88.9 144.98 88.9C156.85 88.91 168.66 90.69 180 94.2C178.44 83.2 174.44 72.68 168.3 63.41C162.15 54.15 154.01 46.37 144.47 40.64C134.93 34.91 124.23 31.37 113.14 30.29C102.06 29.21 90.88 30.61 80.4 34.39C69.93 38.17 60.44 44.24 52.61 52.14C44.78 60.05 38.82 69.59 35.16 80.09C31.5 90.58 30.23 101.76 31.45 112.81C32.66 123.85 36.33 134.49 42.19 143.94C46.61 137.16 51.71 130.85 57.41 125.1Z" />
+</svg>

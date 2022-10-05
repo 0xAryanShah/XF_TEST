@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://xion.finance/</loc>
+  <lastmod>2021-06-07T16:45:18+00:00</lastmod>
+  <priority>1.00</priority>
+  <image:image>
+    <image:loc>https://xion.finance/images/burger-open.svg</image:loc>
+    <image:caption>Mobile menu</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/logo-mini.svg</image:loc>
+    <image:caption>XION mini logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinGecko.svg</image:loc>
+    <image:caption>CoinGecko image</image:caption>
+    <image:title>CoinGecko</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/coincodex.svg</image:loc>
+    <image:caption>coincodex image</image:caption>
+    <image:title>coincodex</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinMarketCap.svg</image:loc>
+    <image:caption>CoinMarketCap image</image:caption>
+    <image:title>CoinMarketCap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/etherscan.svg</image:loc>
+    <image:caption>ETHERSCAN image</image:caption>
+    <image:title>ETHERSCAN</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/BscScan.svg</image:loc>
+    <image:caption>BscScan image</image:caption>
+    <image:title>BscScan</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/BlockScout.svg</image:loc>
+    <image:caption>BlockScout image</image:caption>
+    <image:title>BlockScout</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/join_telegram_desktop.svg</image:loc>
+    <image:caption>Join telegram desktop logo</image:caption>
+    <image:title>Join Telegram</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/join_telegram_mobile.svg</image:loc>
+    <image:caption>Join telegram mobile logo</image:caption>
+    <image:title>Join Telegram</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/burger.svg</image:loc>
+    <image:caption>Mobile menu icon</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/logo.svg</image:loc>
+    <image:caption>XION logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai.svg</image:loc>
+    <image:caption>xdai icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai-selected.svg</image:loc>
+    <image:caption>xdai selected icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/bsc.svg</image:loc>
+    <image:caption>bsc icon</image:caption>
+    <image:title>bsc</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth.svg</image:loc>
+    <image:caption>Eth icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth-selected.svg</image:loc>
+    <image:caption>Eth selected icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>   
+  <image:image>   
+    <image:loc>https://xion.finance/images/preloader_img.svg</image:loc>
+    <image:caption>Playing alien</image:caption>
+    <image:title>Loading</image:title>
+  </image:image> 
+  <image:image>
+    <image:loc>https://xion.finance/images/general-left.png</image:loc>
+    <image:caption>One click</image:caption>
+    <image:title>One Click</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/general-right.png</image:loc>
+    <image:caption>To defi</image:caption>
+    <image:title>To Defi</image:title>
+  </image:image>                 
+  <image:image>
+    <image:loc>https://xion.finance/images/scroll.svg</image:loc>
+    <image:caption>Scroll down Image</image:caption>
+    <image:title>Scroll down</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/pumpkin.svg</image:loc>
+    <image:caption>XGT logo</image:caption>
+    <image:title>XGT Logo</image:title>
+  </image:image>       
+  <image:image>
+    <image:loc>https://xion.finance/images/PancakeSwap.svg</image:loc>
+    <image:caption>PancakeSwap</image:caption>
+    <image:title>PancakeSwap</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/Honeyswap.svg</image:loc>
+    <image:caption>Honeyswap</image:caption>
+    <image:title>Honeyswap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/Uniswap.svg</image:loc>
+    <image:caption>Uniswap</image:caption>
+    <image:title>Uniswap</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/decentralize.svg</image:loc>
+    <image:caption>Decentralized Commerce Protocol</image:caption>
+    <image:title>Decentralized Commerce Protocol</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/bscPad.svg</image:loc>
+    <image:caption>BSCPad</image:caption>
+    <image:title>BSCPad</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/lending_svg.svg</image:loc>
+    <image:caption>Lending</image:caption>
+    <image:title>Lending</image:title>
+  </image:image> 
+  <image:image>
+    <image:loc>https://xion.finance/images/chains_svg.svg</image:loc>
+    <image:caption>Chain</image:caption>
+    <image:title>Chain</image:title>
+  </image:image> 
+  <image:image>
+    <image:loc>https://xion.finance/images/yield_svg.svg</image:loc>
+    <image:caption>Yield farming</image:caption>
+    <image:title>Yield Farming</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/gd10.svg</image:loc>
+    <image:caption>GD10</image:caption>
+    <image:title>GD10</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/certik.svg</image:loc>
+    <image:caption>CERTIK</image:caption>
+    <image:title>CERTIK</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/svc.svg</image:loc>
+    <image:caption>Skyvision Capital</image:caption>
+    <image:title>SVC</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/cvvc.svg</image:loc>
+    <image:caption>CVVC</image:caption>
+    <image:title>CVVC</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/trust.svg</image:loc>
+    <image:caption>Trustpad</image:caption>
+    <image:title>Trustpad</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/twin.svg</image:loc>
+    <image:caption>Twin Apex Capital</image:caption>
+    <image:title>Twin Apex Capital</image:title>
+  </image:image>         
+  <image:image>
+    <image:loc>https://xion.finance/images/lupa.svg</image:loc>
+    <image:caption>Lupa X Capital</image:caption>
+    <image:title>Lupa X Capital</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/SafeLaunch.svg</image:loc>
+    <image:caption>Safe launch</image:caption>
+    <image:title>Safe launch</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/tgh.svg</image:loc>
+    <image:caption>TGH</image:caption>
+    <image:title>TGH</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/metrixcapital.svg</image:loc>
+    <image:caption>Metrix Capital</image:caption>
+    <image:title>Metrix Capital</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/darkpool_ventures.svg</image:loc>
+    <image:caption>Darkpool Ventures</image:caption>
+    <image:title>Darkpool Ventures</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/ashwsh.svg</image:loc>
+    <image:caption>Ashwsh</image:caption>
+    <image:title>Ashwsh</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/tokenova.svg</image:loc>
+    <image:caption>Tokenova</image:caption>
+    <image:title>Tokenova</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/wyre.svg</image:loc>
+    <image:caption>Wyre</image:caption>
+    <image:title>Wyre</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/ramp.svg</image:loc>
+    <image:caption>Ramp</image:caption>
+    <image:title>Ramp</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/torus.svg</image:loc>
+    <image:caption>Torus</image:caption>
+    <image:title>Torus</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/pelerin.svg</image:loc>
+    <image:caption>Mt Pelerin</image:caption>
+    <image:title>Mt Pelerin</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/spreedly.svg</image:loc>
+    <image:caption>Spreedly</image:caption>
+    <image:title>Spreedly</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/join_telegram.svg</image:loc>
+    <image:caption>Telegram</image:caption>
+    <image:title>Telegram</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/join_discord.svg</image:loc>
+    <image:caption>Discord</image:caption>
+    <image:title>Discord</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/join_medium.svg</image:loc>
+    <image:caption>Medium</image:caption>
+    <image:title>Medium</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/join_twitter.svg</image:loc>
+    <image:caption>Twitter</image:caption>
+    <image:title>Twitter</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_6.png</image:loc>
+    <image:caption>Flying Alien</image:caption>
+    <image:title>Flying Alien</image:title>
+  </image:image>      
+</url>
+<url>
+  <loc>https://xion.finance/earn</loc>
+  <lastmod>2021-06-07T16:45:18+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://xion.finance/images/burger-open.svg</image:loc>
+    <image:caption>Mobile menu</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/logo-mini.svg</image:loc>
+    <image:caption>XION mini logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinGecko.svg</image:loc>
+    <image:caption>CoinGecko image</image:caption>
+    <image:title>CoinGecko</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/coincodex.svg</image:loc>
+    <image:caption>coincodex image</image:caption>
+    <image:title>coincodex</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinMarketCap.svg</image:loc>
+    <image:caption>CoinMarketCap image</image:caption>
+    <image:title>CoinMarketCap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/etherscan.svg</image:loc>
+    <image:caption>ETHERSCAN image</image:caption>
+    <image:title>ETHERSCAN</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/BscScan.svg</image:loc>
+    <image:caption>BscScan image</image:caption>
+    <image:title>BscScan</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/BlockScout.svg</image:loc>
+    <image:caption>BlockScout image</image:caption>
+    <image:title>BlockScout</image:title>
+  </image:image>       
+  <image:image>
+    <image:loc>https://xion.finance/images/burger.svg</image:loc>
+    <image:caption>Mobile menu icon</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai.svg</image:loc>
+    <image:caption>xdai icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai-selected.svg</image:loc>
+    <image:caption>xdai selected icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/bsc.svg</image:loc>
+    <image:caption>bsc icon</image:caption>
+    <image:title>bsc</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth.svg</image:loc>
+    <image:caption>Eth icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth-selected.svg</image:loc>
+    <image:caption>Eth selected icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/warning.png</image:loc>
+    <image:caption>Warning icon</image:caption>
+    <image:title>Warning</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/img_1.png</image:loc>
+    <image:caption>Simply create or connect your torus wallet</image:caption>
+    <image:title>Connect Wallet</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_2.png</image:loc>
+    <image:caption>Purchase Dai to start earning interest</image:caption>
+    <image:title>Purchase DAI</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_3.png</image:loc>
+    <image:caption>Easily deposit Dai to start earning</image:caption>
+    <image:title>Earn Interest</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_4.png</image:loc>
+    <image:caption>Automatically receive xgt rewards</image:caption>
+    <image:title>Get Rewarded</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/logo.svg</image:loc>
+    <image:caption>XION logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/telegram.svg</image:loc>
+    <image:caption>Telegram</image:caption>
+    <image:title>Telegram</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/twitter.svg</image:loc>
+    <image:caption>Twitter</image:caption>
+    <image:title>Twitter</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/medium.svg</image:loc>
+    <image:caption>Medium</image:caption>
+    <image:title>Medium</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/github.svg</image:loc>
+    <image:caption>Github</image:caption>
+    <image:title>Github</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/discord.svg</image:loc>
+    <image:caption>Discord</image:caption>
+    <image:title>Discord</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_6.png</image:loc>
+    <image:caption>Flying Alien</image:caption>
+    <image:title>Flying Alien</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/error-img.png</image:loc>
+    <image:caption>Flying Alien Error</image:caption>
+    <image:title>Flying Alien Error</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_popup.png</image:loc>
+    <image:caption>Fishing Alien</image:caption>
+    <image:title>Fishing Alien</image:title>
+  </image:image>      
+  <image:image>   
+    <image:loc>https://xion.finance/images/preloader_img.svg</image:loc>
+    <image:caption>Playing alien</image:caption>
+    <image:title>Loading</image:title>
+  </image:image>   
+</url>
+<url>
+  <loc>https://xion.finance/farm</loc>
+  <lastmod>2021-06-07T16:45:18+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://xion.finance/images/burger-open.svg</image:loc>
+    <image:caption>Mobile menu</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/logo-mini.svg</image:loc>
+    <image:caption>XION mini logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinGecko.svg</image:loc>
+    <image:caption>CoinGecko image</image:caption>
+    <image:title>CoinGecko</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/coincodex.svg</image:loc>
+    <image:caption>coincodex image</image:caption>
+    <image:title>coincodex</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinMarketCap.svg</image:loc>
+    <image:caption>CoinMarketCap image</image:caption>
+    <image:title>CoinMarketCap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/etherscan.svg</image:loc>
+    <image:caption>ETHERSCAN image</image:caption>
+    <image:title>ETHERSCAN</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/BscScan.svg</image:loc>
+    <image:caption>BscScan image</image:caption>
+    <image:title>BscScan</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/BlockScout.svg</image:loc>
+    <image:caption>BlockScout image</image:caption>
+    <image:title>BlockScout</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/burger.svg</image:loc>
+    <image:caption>Mobile menu icon</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/logo.svg</image:loc>
+    <image:caption>XION logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai.svg</image:loc>
+    <image:caption>xdai icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai-selected.svg</image:loc>
+    <image:caption>xdai selected icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/bsc.svg</image:loc>
+    <image:caption>bsc icon</image:caption>
+    <image:title>bsc</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth.svg</image:loc>
+    <image:caption>Eth icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth-selected.svg</image:loc>
+    <image:caption>Eth selected icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_1.png</image:loc>
+    <image:caption>Simply create or connect your torus wallet</image:caption>
+    <image:title>Connect Wallet</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/img_2.png</image:loc>
+    <image:caption>Purchase Dai to start farming xgt</image:caption>
+    <image:title>Purchase DAI</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_15.png</image:loc>
+    <image:caption>Deposit xDAI to easily earn crypto</image:caption>
+    <image:title>Earn Trading Fees</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_16.png</image:loc>
+    <image:caption>Automatically receive more xgt rewards</image:caption>
+    <image:title>Get Rewarded</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/telegram.svg</image:loc>
+    <image:caption>Telegram</image:caption>
+    <image:title>Telegram</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/twitter.svg</image:loc>
+    <image:caption>Twitter</image:caption>
+    <image:title>Twitter</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/medium.svg</image:loc>
+    <image:caption>Medium</image:caption>
+    <image:title>Medium</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/github.svg</image:loc>
+    <image:caption>Github</image:caption>
+    <image:title>Github</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/discord.svg</image:loc>
+    <image:caption>Discord</image:caption>
+    <image:title>Discord</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/error-img.png</image:loc>
+    <image:caption>Flying Alien Error</image:caption>
+    <image:title>Flying Alien Error</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_6.png</image:loc>
+    <image:caption>Flying Alien</image:caption>
+    <image:title>Flying Alien</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_popup.png</image:loc>
+    <image:caption>Fishing Alien</image:caption>
+    <image:title>Fishing Alien</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/warning.png</image:loc>
+    <image:caption>Warning icon</image:caption>
+    <image:title>Warning</image:title>
+  </image:image>    
+  <image:image>   
+    <image:loc>https://xion.finance/images/preloader_img.svg</image:loc>
+    <image:caption>Playing alien</image:caption>
+    <image:title>Loading</image:title>
+  </image:image>   
+</url>
+<url>
+  <loc>https://xion.finance/shop</loc>
+  <lastmod>2021-05-27T17:18:30+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://xion.finance/images/burger-open.svg</image:loc>
+    <image:caption>Mobile menu</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/logo-mini.svg</image:loc>
+    <image:caption>XION mini logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinGecko.svg</image:loc>
+    <image:caption>CoinGecko image</image:caption>
+    <image:title>CoinGecko</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/coincodex.svg</image:loc>
+    <image:caption>coincodex image</image:caption>
+    <image:title>coincodex</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinMarketCap.svg</image:loc>
+    <image:caption>CoinMarketCap image</image:caption>
+    <image:title>CoinMarketCap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/etherscan.svg</image:loc>
+    <image:caption>ETHERSCAN image</image:caption>
+    <image:title>ETHERSCAN</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/BscScan.svg</image:loc>
+    <image:caption>BscScan image</image:caption>
+    <image:title>BscScan</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/BlockScout.svg</image:loc>
+    <image:caption>BlockScout image</image:caption>
+    <image:title>BlockScout</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/burger.svg</image:loc>
+    <image:caption>Mobile menu icon</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/logo.svg</image:loc>
+    <image:caption>XION logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai.svg</image:loc>
+    <image:caption>xdai icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai-selected.svg</image:loc>
+    <image:caption>xdai selected icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/bsc.svg</image:loc>
+    <image:caption>bsc icon</image:caption>
+    <image:title>bsc</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth.svg</image:loc>
+    <image:caption>Eth icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth-selected.svg</image:loc>
+    <image:caption>Eth selected icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/line.png</image:loc>
+    <image:caption>Farming Users</image:caption>
+    <image:title>Farming Users</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/dable_logo.png</image:loc>
+    <image:caption>Dabble art</image:caption>
+    <image:title>Dabble Art</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/img_20.png</image:loc>
+    <image:caption>Purchase any product listed above</image:caption>
+    <image:title>Shop Online</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_21.png</image:loc>
+    <image:caption>Get cashback on your purchase</image:caption>
+    <image:title>Get Cashback</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_22.png</image:loc>
+    <image:caption>Hold onto your xgt to watch it grow in value</image:caption>
+    <image:title>Save Rewards</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/img_23.png</image:loc>
+    <image:caption>Get discount off your products</image:caption>
+    <image:title>Spend Rewards</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/telegram.svg</image:loc>
+    <image:caption>Telegram</image:caption>
+    <image:title>Telegram</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/twitter.svg</image:loc>
+    <image:caption>Twitter</image:caption>
+    <image:title>Twitter</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/medium.svg</image:loc>
+    <image:caption>Medium</image:caption>
+    <image:title>Medium</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/github.svg</image:loc>
+    <image:caption>Github</image:caption>
+    <image:title>Github</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/discord.svg</image:loc>
+    <image:caption>Discord</image:caption>
+    <image:title>Discord</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_6.png</image:loc>
+    <image:caption>Flying Alien</image:caption>
+    <image:title>Flying Alien</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_popup.png</image:loc>
+    <image:caption>Fishing Alien</image:caption>
+    <image:title>Fishing Alien</image:title>
+  </image:image>     
+  <image:image>   
+    <image:loc>https://xion.finance/images/preloader_img.svg</image:loc>
+    <image:caption>Playing alien</image:caption>
+    <image:title>Loading</image:title>
+  </image:image>   
+  <video:video>
+    <video:thumbnail_loc>https://i.ytimg.com/vi/RkC0l4iekYo/sddefault.jpg</video:thumbnail_loc>
+    <video:title>PS5 Hardware Reveal Trailer</video:title>
+    <video:description>PS5 Hardware Reveal Trailer</video:description>
+    <video:player_loc>https://www.youtube.com/watch?v=RkC0l4iekYo</video:player_loc>    
+    <video:duration>191</video:duration>
+    <video:family_friendly>yes</video:family_friendly> 
+    <video:live>no</video:live>       
+  </video:video>
+  <video:video>
+    <video:thumbnail_loc>https://i.ytimg.com/vi_webp/0tUqIHwHDEc/sddefault.webp</video:thumbnail_loc>
+    <video:title>Xbox Series X - World Premiere - 4K Trailer</video:title>
+    <video:description>Xbox Series X - World Premiere - 4K Trailer</video:description>
+    <video:player_loc>https://www.youtube.com/embed/0tUqIHwHDEc</video:player_loc>    
+    <video:duration>114</video:duration>
+    <video:family_friendly>yes</video:family_friendly> 
+    <video:live>no</video:live>       
+  </video:video>  
+  <video:video>
+    <video:thumbnail_loc>https://i.ytimg.com/vi_webp/LlPSJa6DJGQ/sddefault.webp</video:thumbnail_loc>
+    <video:title>AirPods Pro Trailer</video:title>
+    <video:description>AirPods Pro Trailer</video:description>
+    <video:player_loc>https://www.youtube.com/embed/LlPSJa6DJGQ</video:player_loc>    
+    <video:duration>71</video:duration>
+    <video:family_friendly>yes</video:family_friendly> 
+    <video:live>no</video:live>       
+  </video:video>    
+  <video:video>
+    <video:thumbnail_loc>https://i.ytimg.com/vi_webp/NMf4KI3kpZg/sddefault.webp</video:thumbnail_loc>
+    <video:title>DJI - Meet DJI Mini 2</video:title>
+    <video:description>DJI - Meet DJI Mini 2</video:description>
+    <video:player_loc>https://www.youtube.com/embed/NMf4KI3kpZg</video:player_loc>    
+    <video:duration>67</video:duration>
+    <video:family_friendly>yes</video:family_friendly> 
+    <video:live>no</video:live>       
+  </video:video>    
+</url>
+<url>
+  <loc>https://xion.finance/withdraw</loc>
+  <lastmod>2021-05-27T17:18:30+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://xion.finance/images/burger-open.svg</image:loc>
+    <image:caption>Mobile menu</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/logo-mini.svg</image:loc>
+    <image:caption>XION mini logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinGecko.svg</image:loc>
+    <image:caption>CoinGecko image</image:caption>
+    <image:title>CoinGecko</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/coincodex.svg</image:loc>
+    <image:caption>coincodex image</image:caption>
+    <image:title>coincodex</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinMarketCap.svg</image:loc>
+    <image:caption>CoinMarketCap image</image:caption>
+    <image:title>CoinMarketCap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/etherscan.svg</image:loc>
+    <image:caption>ETHERSCAN image</image:caption>
+    <image:title>ETHERSCAN</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/BscScan.svg</image:loc>
+    <image:caption>BscScan image</image:caption>
+    <image:title>BscScan</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/BlockScout.svg</image:loc>
+    <image:caption>BlockScout image</image:caption>
+    <image:title>BlockScout</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/burger.svg</image:loc>
+    <image:caption>Mobile menu icon</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/logo.svg</image:loc>
+    <image:caption>XION logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai.svg</image:loc>
+    <image:caption>xdai icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai-selected.svg</image:loc>
+    <image:caption>xdai selected icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/bsc.svg</image:loc>
+    <image:caption>bsc icon</image:caption>
+    <image:title>bsc</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth.svg</image:loc>
+    <image:caption>Eth icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth-selected.svg</image:loc>
+    <image:caption>Eth selected icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>   
+ <image:image>
+    <image:loc>https://xion.finance/images/telegram.svg</image:loc>
+    <image:caption>Telegram</image:caption>
+    <image:title>Telegram</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/twitter.svg</image:loc>
+    <image:caption>Twitter</image:caption>
+    <image:title>Twitter</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/medium.svg</image:loc>
+    <image:caption>Medium</image:caption>
+    <image:title>Medium</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/github.svg</image:loc>
+    <image:caption>Github</image:caption>
+    <image:title>Github</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/discord.svg</image:loc>
+    <image:caption>Discord</image:caption>
+    <image:title>Discord</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/error-img.png</image:loc>
+    <image:caption>Flying Alien Error</image:caption>
+    <image:title>Flying Alien Error</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_6.png</image:loc>
+    <image:caption>Flying Alien</image:caption>
+    <image:title>Flying Alien</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_popup.png</image:loc>
+    <image:caption>Fishing Alien</image:caption>
+    <image:title>Fishing Alien</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/warning.png</image:loc>
+    <image:caption>Warning icon</image:caption>
+    <image:title>Warning</image:title>
+  </image:image>    
+  <image:image>   
+    <image:loc>https://xion.finance/images/preloader_img.svg</image:loc>
+    <image:caption>Playing alien</image:caption>
+    <image:title>Loading</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/img_1.png</image:loc>
+    <image:caption>Simply create or connect your crypto wallet</image:caption>
+    <image:title>Connect Wallet</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_17.png</image:loc>
+    <image:caption>Select what earnings to withdraw</image:caption>
+    <image:title>Choose Earnings</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/img_18.png</image:loc>
+    <image:caption>Select your crypto address or bank account</image:caption>
+    <image:title>Choose Payout Type</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/img_19.png</image:loc>
+    <image:caption>Easily withdraw your crypto into your wallet or into back account</image:caption>
+    <image:title>Withdraw Crypto</image:title>
+  </image:image>      
+</url>
+<url>
+  <loc>https://xion.finance/about_us</loc>
+  <lastmod>2021-06-07T16:45:18+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://xion.finance/images/burger-open.svg</image:loc>
+    <image:caption>Mobile menu</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/logo-mini.svg</image:loc>
+    <image:caption>XION mini logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinGecko.svg</image:loc>
+    <image:caption>CoinGecko image</image:caption>
+    <image:title>CoinGecko</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/coincodex.svg</image:loc>
+    <image:caption>coincodex image</image:caption>
+    <image:title>coincodex</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinMarketCap.svg</image:loc>
+    <image:caption>CoinMarketCap image</image:caption>
+    <image:title>CoinMarketCap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/etherscan.svg</image:loc>
+    <image:caption>ETHERSCAN image</image:caption>
+    <image:title>ETHERSCAN</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/BscScan.svg</image:loc>
+    <image:caption>BscScan image</image:caption>
+    <image:title>BscScan</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/BlockScout.svg</image:loc>
+    <image:caption>BlockScout image</image:caption>
+    <image:title>BlockScout</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/burger.svg</image:loc>
+    <image:caption>Mobile menu icon</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/logo.svg</image:loc>
+    <image:caption>XION logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai.svg</image:loc>
+    <image:caption>xdai icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai-selected.svg</image:loc>
+    <image:caption>xdai selected icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/bsc.svg</image:loc>
+    <image:caption>bsc icon</image:caption>
+    <image:title>bsc</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth.svg</image:loc>
+    <image:caption>Eth icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth-selected.svg</image:loc>
+    <image:caption>Eth selected icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>   
+ <image:image>
+    <image:loc>https://xion.finance/images/telegram.svg</image:loc>
+    <image:caption>Telegram</image:caption>
+    <image:title>Telegram</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/twitter.svg</image:loc>
+    <image:caption>Twitter</image:caption>
+    <image:title>Twitter</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/medium.svg</image:loc>
+    <image:caption>Medium</image:caption>
+    <image:title>Medium</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/github.svg</image:loc>
+    <image:caption>Github</image:caption>
+    <image:title>Github</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/discord.svg</image:loc>
+    <image:caption>Discord</image:caption>
+    <image:title>Discord</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_6.png</image:loc>
+    <image:caption>Flying Alien</image:caption>
+    <image:title>Flying Alien</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_popup.png</image:loc>
+    <image:caption>Fishing Alien</image:caption>
+    <image:title>Fishing Alien</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/about_img1.png</image:loc>
+    <image:caption>Easy compounding interest on your crypto</image:caption>
+    <image:title>Earn Interest</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/about_img2.png</image:loc>
+    <image:caption>Earn every trade in our liquidity pool</image:caption>
+    <image:title>Earn Trading Fees</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/about_img3.png</image:loc>
+    <image:caption>Purchase products and get cashback in xgt</image:caption>
+    <image:title>Shop Online</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/team_img1.png</image:loc>
+    <image:caption>Core Contributor</image:caption>
+    <image:title>RONAN QUARMBY</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/team_img2.png</image:loc>
+    <image:caption>Core Contributor</image:caption>
+    <image:title>BRENT McMAHON-PANTHER</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/team_img3.png</image:loc>
+    <image:caption>Core Contributor</image:caption>
+    <image:title>AERYN QUARMBY</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/team_img4.png</image:loc>
+    <image:caption>Tech Lead and Blockchain Dev</image:caption>
+    <image:title>MARVIN KRUSE</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/team_img5.png</image:loc>
+    <image:caption>Professor</image:caption>
+    <image:title>PROF. DR. SEBASTIAN GAJEK</image:title>
+  </image:image> 
+  <image:image>
+    <image:loc>https://xion.finance/images/team_img6.png</image:loc>
+    <image:caption>Full-Stack Dev</image:caption>
+    <image:title>YANNIK GOLDGRÄBE</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/team_img7.png</image:loc>
+    <image:caption>Frontend Dev</image:caption>
+    <image:title>YOUSSEF SABER</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/team_img8.png</image:loc>
+    <image:caption>Backend Dev</image:caption>
+    <image:title>HLIB SAIENKO</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/team_img9.png</image:loc>
+    <image:caption>Frontend Dev</image:caption>
+    <image:title>YURII KORKISHKO</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/partner1.png</image:loc>
+    <image:caption>ditCraft</image:caption>
+    <image:title>Partner 1</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/partner2.png</image:loc>
+    <image:caption>Wyre</image:caption>
+    <image:title>Partner 2</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/partner3.png</image:loc>
+    <image:caption>Torus</image:caption>
+    <image:title>Partner 3</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/partner4.png</image:loc>
+    <image:caption>CVVC</image:caption>
+    <image:title>Partner 4</image:title>
+  </image:image>      
+  <image:image>
+    <image:loc>https://xion.finance/images/partner5.png</image:loc>
+    <image:caption>xDai</image:caption>
+    <image:title>Partner 5</image:title>
+  </image:image>            
+</url>
+<url>
+  <loc>https://xion.finance/terms_conditions</loc>
+  <lastmod>2021-05-27T17:18:30+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://xion.finance/images/burger-open.svg</image:loc>
+    <image:caption>Mobile menu</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/logo-mini.svg</image:loc>
+    <image:caption>XION mini logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinGecko.svg</image:loc>
+    <image:caption>CoinGecko image</image:caption>
+    <image:title>CoinGecko</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/coincodex.svg</image:loc>
+    <image:caption>coincodex image</image:caption>
+    <image:title>coincodex</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinMarketCap.svg</image:loc>
+    <image:caption>CoinMarketCap image</image:caption>
+    <image:title>CoinMarketCap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/etherscan.svg</image:loc>
+    <image:caption>ETHERSCAN image</image:caption>
+    <image:title>ETHERSCAN</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/BscScan.svg</image:loc>
+    <image:caption>BscScan image</image:caption>
+    <image:title>BscScan</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/BlockScout.svg</image:loc>
+    <image:caption>BlockScout image</image:caption>
+    <image:title>BlockScout</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/burger.svg</image:loc>
+    <image:caption>Mobile menu icon</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/logo.svg</image:loc>
+    <image:caption>XION logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai.svg</image:loc>
+    <image:caption>xdai icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai-selected.svg</image:loc>
+    <image:caption>xdai selected icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/bsc.svg</image:loc>
+    <image:caption>bsc icon</image:caption>
+    <image:title>bsc</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth.svg</image:loc>
+    <image:caption>Eth icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth-selected.svg</image:loc>
+    <image:caption>Eth selected icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>   
+ <image:image>
+    <image:loc>https://xion.finance/images/telegram.svg</image:loc>
+    <image:caption>Telegram</image:caption>
+    <image:title>Telegram</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/twitter.svg</image:loc>
+    <image:caption>Twitter</image:caption>
+    <image:title>Twitter</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/medium.svg</image:loc>
+    <image:caption>Medium</image:caption>
+    <image:title>Medium</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/github.svg</image:loc>
+    <image:caption>Github</image:caption>
+    <image:title>Github</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/discord.svg</image:loc>
+    <image:caption>Discord</image:caption>
+    <image:title>Discord</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_6.png</image:loc>
+    <image:caption>Flying Alien</image:caption>
+    <image:title>Flying Alien</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_popup.png</image:loc>
+    <image:caption>Fishing Alien</image:caption>
+    <image:title>Fishing Alien</image:title>
+  </image:image>      
+</url>
+<url>
+  <loc>https://xion.finance/privacy_policy</loc>
+  <lastmod>2021-06-07T16:45:18+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://xion.finance/images/burger-open.svg</image:loc>
+    <image:caption>Mobile menu</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/logo-mini.svg</image:loc>
+    <image:caption>XION mini logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinGecko.svg</image:loc>
+    <image:caption>CoinGecko image</image:caption>
+    <image:title>CoinGecko</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/coincodex.svg</image:loc>
+    <image:caption>coincodex image</image:caption>
+    <image:title>coincodex</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinMarketCap.svg</image:loc>
+    <image:caption>CoinMarketCap image</image:caption>
+    <image:title>CoinMarketCap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/etherscan.svg</image:loc>
+    <image:caption>ETHERSCAN image</image:caption>
+    <image:title>ETHERSCAN</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/BscScan.svg</image:loc>
+    <image:caption>BscScan image</image:caption>
+    <image:title>BscScan</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/BlockScout.svg</image:loc>
+    <image:caption>BlockScout image</image:caption>
+    <image:title>BlockScout</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/burger.svg</image:loc>
+    <image:caption>Mobile menu icon</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/logo.svg</image:loc>
+    <image:caption>XION logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai.svg</image:loc>
+    <image:caption>xdai icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai-selected.svg</image:loc>
+    <image:caption>xdai selected icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/bsc.svg</image:loc>
+    <image:caption>bsc icon</image:caption>
+    <image:title>bsc</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth.svg</image:loc>
+    <image:caption>Eth icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth-selected.svg</image:loc>
+    <image:caption>Eth selected icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>   
+ <image:image>
+    <image:loc>https://xion.finance/images/telegram.svg</image:loc>
+    <image:caption>Telegram</image:caption>
+    <image:title>Telegram</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/twitter.svg</image:loc>
+    <image:caption>Twitter</image:caption>
+    <image:title>Twitter</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/medium.svg</image:loc>
+    <image:caption>Medium</image:caption>
+    <image:title>Medium</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/github.svg</image:loc>
+    <image:caption>Github</image:caption>
+    <image:title>Github</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/discord.svg</image:loc>
+    <image:caption>Discord</image:caption>
+    <image:title>Discord</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_6.png</image:loc>
+    <image:caption>Flying Alien</image:caption>
+    <image:title>Flying Alien</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_popup.png</image:loc>
+    <image:caption>Fishing Alien</image:caption>
+    <image:title>Fishing Alien</image:title>
+  </image:image>        
+</url>
+<url>
+  <loc>https://xion.finance/faq</loc>
+  <lastmod>2021-06-07T16:45:18+00:00</lastmod>
+  <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://xion.finance/images/burger-open.svg</image:loc>
+    <image:caption>Mobile menu</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/logo-mini.svg</image:loc>
+    <image:caption>XION mini logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinGecko.svg</image:loc>
+    <image:caption>CoinGecko image</image:caption>
+    <image:title>CoinGecko</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/coincodex.svg</image:loc>
+    <image:caption>coincodex image</image:caption>
+    <image:title>coincodex</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/CoinMarketCap.svg</image:loc>
+    <image:caption>CoinMarketCap image</image:caption>
+    <image:title>CoinMarketCap</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/etherscan.svg</image:loc>
+    <image:caption>ETHERSCAN image</image:caption>
+    <image:title>ETHERSCAN</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/BscScan.svg</image:loc>
+    <image:caption>BscScan image</image:caption>
+    <image:title>BscScan</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/BlockScout.svg</image:loc>
+    <image:caption>BlockScout image</image:caption>
+    <image:title>BlockScout</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/burger.svg</image:loc>
+    <image:caption>Mobile menu icon</image:caption>
+    <image:title>Menu</image:title>
+  </image:image>  
+  <image:image>
+    <image:loc>https://xion.finance/images/logo.svg</image:loc>
+    <image:caption>XION logo</image:caption>
+    <image:title>XION</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai.svg</image:loc>
+    <image:caption>xdai icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/xdai-selected.svg</image:loc>
+    <image:caption>xdai selected icon</image:caption>
+    <image:title>xdai</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/bsc.svg</image:loc>
+    <image:caption>bsc icon</image:caption>
+    <image:title>bsc</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth.svg</image:loc>
+    <image:caption>Eth icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>    
+  <image:image>
+    <image:loc>https://xion.finance/images/eth-selected.svg</image:loc>
+    <image:caption>Eth selected icon</image:caption>
+    <image:title>Eth</image:title>
+  </image:image>        
+  <image:image>
+    <image:loc>https://xion.finance/images/dropdown-icon.svg</image:loc>
+    <image:caption>Dropdown icon</image:caption>
+    <image:title>Dropdown</image:title>
+  </image:image>   
+ <image:image>
+    <image:loc>https://xion.finance/images/telegram.svg</image:loc>
+    <image:caption>Telegram</image:caption>
+    <image:title>Telegram</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/twitter.svg</image:loc>
+    <image:caption>Twitter</image:caption>
+    <image:title>Twitter</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/medium.svg</image:loc>
+    <image:caption>Medium</image:caption>
+    <image:title>Medium</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/github.svg</image:loc>
+    <image:caption>Github</image:caption>
+    <image:title>Github</image:title>
+  </image:image>     
+  <image:image>
+    <image:loc>https://xion.finance/images/discord.svg</image:loc>
+    <image:caption>Discord</image:caption>
+    <image:title>Discord</image:title>
+  </image:image>   
+  <image:image>
+    <image:loc>https://xion.finance/images/img_6.png</image:loc>
+    <image:caption>Flying Alien</image:caption>
+    <image:title>Flying Alien</image:title>
+  </image:image>     
+    <image:image>
+    <image:loc>https://xion.finance/images/error-img.png</image:loc>
+    <image:caption>Flying Alien Error</image:caption>
+    <image:title>Flying Alien Error</image:title>
+  </image:image>  
+</url>
+
+</urlset>
