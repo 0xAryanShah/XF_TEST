@@ -821,7 +821,7 @@ async function loadLivePoolData(key) {
             if (totalFarmedUSD - parseFloat(totalFarmedUSD).toFixed(0) == 0) {
                 totalFarmedUSD = parseFloat(totalFarmedUSD).toFixed(0);
             }
-            stakingPool_update_totalFarm(pool.key, 1000);
+            stakingPool_update_totalFarm(pool.key, totalFarmedUSD);
             let userInfo = null;
             try {
                 userInfo = await stakingContract.methods
