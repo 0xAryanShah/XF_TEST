@@ -702,6 +702,10 @@ async function updateRates(forPoolKey) {
     if (forPoolKey == 9999 || forPoolKey == 1) {
         farmData[1].usdValueStakeToken =
             latestInfo.total_pool_value[0] / latestInfo.total_pool_tokens[0];
+        if(farmData[1].usdValueStakeToken == NaN)
+        {
+            farmData[1].usdValueStakeToken= 0;
+        }
         farmData[1].usdValueRewardTokens = [latestInfo.xgt_price_xdai];
     }
 
