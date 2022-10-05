@@ -818,8 +818,9 @@ async function loadLivePoolData(key) {
             stakingPool_update_totalFarmToken(pool.key, displayValue);
 
             let totalFarmedUSD = parseFloat(
-                parseFloat(thisWeb3.utils.fromWei(totalStake.toString()))
-            ).toFixed(2);
+                parseFloat(thisWeb3.utils.fromWei(totalStake.toString())) *
+                pool.usdValueStakeToken
+            ).toFixed(0);
 
             if (totalFarmedUSD - parseFloat(totalFarmedUSD).toFixed(0) == 0) {
                 totalFarmedUSD = parseFloat(totalFarmedUSD).toFixed(0);
