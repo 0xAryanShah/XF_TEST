@@ -702,7 +702,7 @@ async function updateRates(forPoolKey) {
     if (forPoolKey == 9999 || forPoolKey == 1) {
         farmData[1].usdValueStakeToken =
             latestInfo.total_pool_value[0] / latestInfo.total_pool_tokens[0];
-        if(farmData[1].usdValueStakeToken == NaN)
+        if(farmData[1].usdValueStakeToken != Number)
         {
             farmData[1].usdValueStakeToken= 0;
         }
@@ -818,9 +818,8 @@ async function loadLivePoolData(key) {
             stakingPool_update_totalFarmToken(pool.key, displayValue);
 
             let totalFarmedUSD = parseFloat(
-                parseFloat(thisWeb3.utils.fromWei(totalStake.toString())) *
-                    pool.usdValueStakeToken
-            ).toFixed(0);
+                parseFloat(thisWeb3.utils.fromWei(totalStake.toString()))
+            ).toFixed(2);
 
             if (totalFarmedUSD - parseFloat(totalFarmedUSD).toFixed(0) == 0) {
                 totalFarmedUSD = parseFloat(totalFarmedUSD).toFixed(0);
